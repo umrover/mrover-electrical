@@ -1,3 +1,5 @@
+Michigan Mars Rover Team
+
 Hello and Welcome to the Controls and Data Handling git hub repository!
 
 
