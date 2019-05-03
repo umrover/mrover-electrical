@@ -1,0 +1,2 @@
+void ADC_Config(void);
+void ADC_DMA_Config(void);

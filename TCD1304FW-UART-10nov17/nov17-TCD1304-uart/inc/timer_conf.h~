@@ -1,0 +1,5 @@
+#include "main.h"
+#include "stm32f4xx.h"
+
+void TIM_3_4_Config(void);
+void TIM_2_5_Config(void);
