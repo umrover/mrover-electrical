@@ -1,0 +1,4 @@
+#Data from the TCD1304 linear CCD
+#column 1 = pixelnumber , column 2 = pixelvalue
+#Pixel 1-32 and 3679-3694 and are dummy pixels
+#SH-period: 200    ICG-period: 100000    Integration time: 100.0 us
