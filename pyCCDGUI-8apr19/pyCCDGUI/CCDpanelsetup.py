@@ -291,7 +291,7 @@ class buildpanel(tk.Frame):
   def updateplot(self, CCDplot):
     #This subtracts the ADC-pixel from ADC-dark
     if (config.datainvert==1): 
-        config.pltData16 = (config.rxData16[10]+config.rxData16[11])/2 - config.rxData16
+        config.pltData16 = 4095 - config.rxData16
         #This subtracts the average difference between even and odd pixels from the even pixels
         if (config.balanced==1):
             config.offset = (config.pltData16[18]+config.pltData16[20]+config.pltData16[22]+config.pltData16[24]-config.pltData16[19]-config.pltData16[21]-config.pltData16[23]-config.pltData16[24])/4
