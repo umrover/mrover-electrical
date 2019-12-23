@@ -1,0 +1,42 @@
+Removed Pin From Net: NetName=ISENB Pin=D2-3
+Removed Pin From Net: NetName=5VD Pin=D2-5
+Removed Pin From Net: NetName=ISENC Pin=D3-1
+Removed Pin From Net: NetName=5VD Pin=D3-5
+Change Component Footprint: Designator=D2 Old Footprint=STM-SOT23-6L_V New Footprint=PESD2V0Y1BSFYL
+Change Component Footprint: Designator=D3 Old Footprint=STM-SOT23-6L_V New Footprint=PESD2V0Y1BSFYL
+Change Component Comment : Designator=D2 Old Comment=USBLC6-2SC6 New Comment=PESD2V0Y1BSFYL
+Change Component Comment : Designator=D3 Old Comment=USBLC6-2SC6 New Comment=PESD2V0Y1BSFYL
+Change component parameters: Designator = "D2"; Footprint = "PESD2V0Y1BSFYL"; UniqueID = "\YJNGQBXL\MIZEEPBT"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD2V0Y1BSF.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Nexperia"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "771-PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Change component parameters: Designator = "D3"; Footprint = "PESD2V0Y1BSFYL"; UniqueID = "\YJNGQBXL\MAXAABUY"
+Change component parameters. Clean all parameters for all variants
+Change component parameters (AddParameter): Name = "Datasheet Link"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD2V0Y1BSF.pdf"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Name"; Value = "Nexperia"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Part Number"; Value = "771-PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Part Number"; Value = ""; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "RS Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Component: Designator=D4(PESD2V0Y1BSFYL)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://assets.nexperia.com/documents/data-sheet/PESD2V0Y1BSF.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Nexperia"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "771-PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.com/Search/Refine.aspx?Keyword=771-PESD2V0Y1BSFYL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = ""; VariantName = "[No Variations]"
+Added Pin To Net: NetName=ISENB Pin=D3-1
+Added Pin To Net: NetName=ISENC Pin=D4-1
+Added Pin To Net: NetName=PGND Pin=D4-2
+Added Pin To Net: NetName=ISENA Pin=U1-60
+Added Pin To Net: NetName=ISENB Pin=U1-66
+Added Pin To Net: NetName=ISENC Pin=U1-68
+Added Member To Class: ClassName=Signal Conditioning Member=Component D4 PESD2V0Y1BSFYL
