@@ -1,0 +1,9 @@
+Added Component: Designator=X1(44914-0601)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "DeviceName"; Value = "44914-0601"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DeviceSetName"; Value = "HEADER_POS6_?"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LibraryName"; Value = "con-molex-micro-fit-3_0_2"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "44914-0601"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SymbolName_1"; Value = "HEADER_POS6"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=mccd Member=Component X1 Molex - Micro-Fit 3.0 Series connector,  3.00mm (0.118") pitch header, 6 positions.
