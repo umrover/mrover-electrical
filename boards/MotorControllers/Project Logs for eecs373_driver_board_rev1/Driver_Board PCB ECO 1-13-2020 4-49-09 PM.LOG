@@ -1,0 +1,2 @@
+Removed Pin From Net: NetName=PGND Pin=R12-1
+Added Pin To Net: NetName=nFault Pin=R12-1

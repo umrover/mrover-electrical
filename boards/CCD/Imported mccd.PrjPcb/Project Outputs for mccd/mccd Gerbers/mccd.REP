@@ -1,0 +1,408 @@
+*************************************************************
+FileName = mccd.GBR
+AutoAperture = True
+*************************************************************
+Generating : Mechanical 23
+      File : mccd.GM23
+
+    Adding Layer      : Mechanical 23
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 22
+      File : mccd.GM22
+
+    Adding Layer      : Mechanical 22
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D33
+    D45
+*************************************************************
+
+*************************************************************
+Generating : Mechanical 15
+      File : mccd.GM15
+
+    Adding Layer      : Mechanical 15
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D43
+    D44
+*************************************************************
+
+*************************************************************
+Generating : tTest
+      File : mccd.GM13
+
+    Adding Layer      : tTest
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D43
+*************************************************************
+
+*************************************************************
+Generating : bGlue
+      File : mccd.GM12
+
+    Adding Layer      : bGlue
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Bottom Assembly
+      File : mccd.GM8
+
+    Adding Layer      : Bottom Assembly
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Assembly
+      File : mccd.GM7
+
+    Adding Layer      : Top Assembly
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Assembly Text Bottom
+      File : mccd.GM6
+
+    Adding Layer      : Assembly Text Bottom
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Reference
+      File : mccd.GM5
+
+    Adding Layer      : Reference
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Assembly Bottom
+      File : mccd.GM4
+
+    Adding Layer      : Assembly Bottom
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Assembly Top
+      File : mccd.GM3
+
+    Adding Layer      : Assembly Top
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Dimension
+      File : mccd.GM1
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Keep-Out Layer
+      File : mccd.GKO
+
+    Adding Layer      : Keep-Out Layer
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D46
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : mccd.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : mccd.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : mccd.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Pad Master
+      File : mccd.GPT
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : mccd.GPB
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : mccd.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : mccd.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Bottom Overlay
+      File : mccd.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D10
+    D11
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : mccd.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : mccd.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
