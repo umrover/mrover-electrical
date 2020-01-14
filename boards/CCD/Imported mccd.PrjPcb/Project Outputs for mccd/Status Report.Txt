@@ -1,35 +1,13 @@
-Output: Gerber Files
-Type  : Gerber
-From  : Variant [[No Variations]] of Project [mccd.PrjPcb]
-   Generated File[mccd.GTO]
-   Generated File[mccd.GTP]
-   Generated File[mccd.GTS]
-   Generated File[mccd.GTL]
-   Generated File[mccd.GBL]
-   Generated File[mccd.GBS]
-   Generated File[mccd.GBP]
-   Generated File[mccd.GBO]
-   Generated File[mccd.GM1]
-   Generated File[mccd.GM3]
-   Generated File[mccd.GM4]
-   Generated File[mccd.GM5]
-   Generated File[mccd.GM6]
-   Generated File[mccd.GM7]
-   Generated File[mccd.GM8]
-   Generated File[mccd.GM12]
-   Generated File[mccd.GM13]
-   Generated File[mccd.GM15]
-   Generated File[mccd.GM22]
-   Generated File[mccd.GM23]
-   Generated File[mccd.GKO]
-   Generated File[mccd.GPT]
-   Generated File[mccd.GPB]
-   Generated File[mccd.RUL]
-   Generated File[mccd.EXTREP]
-   Generated File[mccd.REP]
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [mccd.PrjPcb]
+   Generated File[mccd.TXT]
+   Generated File[mccd.DRL]
+   Generated File[mccd.LDP]
+   Generated File[mccd.DRR]
 
 
-Files Generated   : 26
+Files Generated   : 4
 Documents Printed : 0
 
-Finished Output Generation At 3:03:21 PM On 1/13/2020
+Finished Output Generation At 7:17:38 PM On 1/13/2020

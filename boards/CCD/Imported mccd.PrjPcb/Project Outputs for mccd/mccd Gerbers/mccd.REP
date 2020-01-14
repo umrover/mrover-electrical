@@ -2,6 +2,213 @@
 FileName = mccd.GBR
 AutoAperture = True
 *************************************************************
+Generating : Bottom Overlay
+      File : mccd.GBO
+
+    Adding Layer      : Bottom Overlay
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D10
+    D11
+    D41
+    D42
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : mccd.GBP
+
+    Adding Layer      : Bottom Paste
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
+Generating : Bottom Solder
+      File : mccd.GBS
+
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+*************************************************************
+
+*************************************************************
+Generating : Top Paste
+      File : mccd.GTP
+
+    Adding Layer      : Top Paste
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top Solder
+      File : mccd.GTS
+
+    Adding Layer      : Top Solder
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Top
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D12
+    D13
+    D14
+    D15
+    D16
+    D17
+    D18
+*************************************************************
+
+*************************************************************
+Generating : Top Overlay
+      File : mccd.GTO
+
+    Adding Layer      : Top Overlay
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D10
+    D11
+*************************************************************
+
+*************************************************************
+Generating : Top
+      File : mccd.GTL
+
+    Adding Layer      : Top
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+*************************************************************
+
+*************************************************************
+Generating : Bottom
+      File : mccd.GBL
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Dimension
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : mccd.GPB
+
+    Adding Layer      : Bottom
+
+    Adding Layer      : Multi-Layer
+
+    Adding Layer      : Dimension
+
+
+Used DCodes :
+    D11
+    D19
+    D20
+    D21
+    D22
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+*************************************************************
+
+*************************************************************
 Generating : Mechanical 23
       File : mccd.GM23
 
@@ -178,68 +385,6 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Bottom Paste
-      File : mccd.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Dimension
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-*************************************************************
-
-*************************************************************
-Generating : Top Solder
-      File : mccd.GTS
-
-    Adding Layer      : Top Solder
-
-    Adding Layer      : Dimension
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-*************************************************************
-
-*************************************************************
-Generating : Top Overlay
-      File : mccd.GTO
-
-    Adding Layer      : Top Overlay
-
-    Adding Layer      : Dimension
-
-
-Used DCodes :
-    D10
-    D11
-*************************************************************
-
-*************************************************************
 Generating : Top Pad Master
       File : mccd.GPT
 
@@ -248,151 +393,6 @@ Generating : Top Pad Master
     Adding Layer      : Multi-Layer
 
     Adding Layer      : Dimension
-
-
-Used DCodes :
-    D11
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : mccd.GPB
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-    Adding Layer      : Dimension
-
-
-Used DCodes :
-    D11
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-*************************************************************
-
-*************************************************************
-Generating : Bottom
-      File : mccd.GBL
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Dimension
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D19
-    D20
-    D21
-    D22
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-*************************************************************
-
-*************************************************************
-Generating : Bottom Solder
-      File : mccd.GBS
-
-    Adding Layer      : Bottom Solder
-
-    Adding Layer      : Dimension
-
-    Adding Layer      : Bottom
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-    D12
-    D13
-    D14
-    D15
-    D16
-    D17
-    D18
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-*************************************************************
-
-*************************************************************
-Generating : Bottom Overlay
-      File : mccd.GBO
-
-    Adding Layer      : Bottom Overlay
-
-    Adding Layer      : Dimension
-
-
-Used DCodes :
-    D10
-    D11
-    D41
-    D42
-*************************************************************
-
-*************************************************************
-Generating : Top Paste
-      File : mccd.GTP
-
-    Adding Layer      : Top Paste
-
-    Adding Layer      : Dimension
-
-    Adding Layer      : Top
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D11
-*************************************************************
-
-*************************************************************
-Generating : Top
-      File : mccd.GTL
-
-    Adding Layer      : Top
-
-    Adding Layer      : Dimension
-
-    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
