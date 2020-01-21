@@ -20,10 +20,6 @@ GOOD GIT ETIQUETTE:
 1. Make sure you always use the command "git pull" before you begin working on a project to make sure you are using the latest version
 2. Make sure you create a separate folder for each and every project you work on. There should never be lonely files on the main page of the repository
 3. Always add relevant commit messages! Nothing too long, but descriptive enough that people know what you did.
-4. USE GIT
-5. USE GIT
-6. NEVER KEEP UNPUSHED MATERIAL ON YOUR LOCAL COMPUTER
-7. ALWAYS PUSH BEFORE YOU STOP WORKING 
-8. ALWAYS PUSH!!!
-9. USE GIT
-10. Have Fun!
+4. NEVER KEEP UNPUSHED MATERIAL ON YOUR LOCAL COMPUTER
+5. ALWAYS PUSH BEFORE YOU STOP WORKING 
+6. Have Fun!
