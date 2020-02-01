@@ -238,7 +238,48 @@ void DRV_setupMode(uint8_t op_mode)
     // set reg values for resolver based foc
     break;
   case DRV_MODE_SENSORLESS_FOC:
-    // set reg values for sensorless foc
+	  DRV_fault_status.R = 0;
+	      DRV_VGS_status2.R = 0;
+	      // Driver Control
+	      DRV_driver_control.driver_control.clr_flt     = 0b0;
+	      DRV_driver_control.driver_control.brake       = 0b0;
+	      DRV_driver_control.driver_control.coast       = 0b0;
+	      DRV_driver_control.driver_control.pwm1_dir    = 0b0;
+	      DRV_driver_control.driver_control.pwm1_com    = 0b0;
+	      DRV_driver_control.driver_control.pwm_mode    = 0b00; // From 0b10 to 0b00 (1x to 6x PWM)
+	      DRV_driver_control.driver_control.otw_rep     = 0b1;
+	      DRV_driver_control.driver_control.dis_gdf     = 0b0;
+	      DRV_driver_control.driver_control.dis_gduv    = 0b0;
+	      DRV_driver_control.driver_control.ocp_act     = 0b0;
+
+	      // Gate Drive HS
+	      DRV_gate_drive_hs.gate_drive_hs.idriven_hs    = 0b0011;
+	      DRV_gate_drive_hs.gate_drive_hs.idrivep_hs    = 0b0011;
+	      DRV_gate_drive_hs.gate_drive_hs.lock          = 0b100;
+
+	      // Gate Drive LS
+	      DRV_gate_drive_ls.gate_drive_ls.idriven_ls    = 0b0011;
+	      DRV_gate_drive_ls.gate_drive_ls.idrivep_ls    = 0b0011;
+	      DRV_gate_drive_ls.gate_drive_ls.tdrive        = 0b11;
+	      DRV_gate_drive_ls.gate_drive_ls.cbc           = 0b1;
+
+	      // OCP Control
+	      DRV_ocp_control.ocp_control.vds_lvl           = 0b1101;
+	      DRV_ocp_control.ocp_control.ocp_deg           = 0b10;
+	      DRV_ocp_control.ocp_control.ocp_mode          = 0b01;
+	      DRV_ocp_control.ocp_control.dead_time         = 0b11;
+	      DRV_ocp_control.ocp_control.tretry            = 0b0;
+
+	      // CSA Control
+	      DRV_csa_control.csa_control.sen_lvl           = 0b11;
+	      DRV_csa_control.csa_control.csa_cal_c         = 0b0;
+	      DRV_csa_control.csa_control.csa_cal_b         = 0b0;
+	      DRV_csa_control.csa_control.csa_cal_a         = 0b0;
+	      DRV_csa_control.csa_control.dis_sen           = 0b0;
+	      DRV_csa_control.csa_control.csa_gain          = 0b00; // Changed from 0b10 to 0b00 (20 V/V to 5 V/V)
+	      DRV_csa_control.csa_control.ls_ref            = 0b0;
+	      DRV_csa_control.csa_control.vref_div          = 0b1;
+	      DRV_csa_control.csa_control.csa_fet           = 0b0;
     break;
   default:
     // handle a case in which no mode is set if necessary, or place sensorless foc code here
