@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [eecs373_driver_board_rev1.PrjPcb]
+   Generated File[Driver_Board.TXT]
+   Generated File[Driver_Board.LDP]
+   Generated File[Driver_Board.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 7:46:27 PM On 2/11/2020

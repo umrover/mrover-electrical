@@ -1,0 +1,91 @@
+Removed Pin From Net: NetName=VM Pin=Q1-9
+Removed Pin From Net: NetName=VM Pin=Q2-9
+Removed Pin From Net: NetName=VM Pin=Q3-9
+Removed Pin From Net: NetName=MOTB Pin=Q4-9
+Removed Pin From Net: NetName=MOTC Pin=Q5-9
+Removed Pin From Net: NetName=MOTA Pin=Q6-9
+Removed Pin From Net: NetName=INLA Pin=R5-2
+Removed Pin From Net: NetName=INHB Pin=R6-2
+Removed Pin From Net: NetName=INLB Pin=R8-2
+Removed Pin From Net: NetName=INLA Pin=U2-35
+Removed Pin From Net: NetName=INHB Pin=U2-36
+Removed Pin From Net: NetName=INLB Pin=U2-37
+Change Component Designator: OldDesignator=GHA NewDesignator=TP1
+Change Component Designator: OldDesignator=GHB NewDesignator=TP2
+Change Component Designator: OldDesignator=GHC NewDesignator=TP3
+Change Component Designator: OldDesignator=GLA NewDesignator=TP4
+Change Component Designator: OldDesignator=GLB NewDesignator=TP5
+Change Component Designator: OldDesignator=GLC NewDesignator=TP6
+Change Component Designator: OldDesignator=MOTA NewDesignator=T1
+Change Component Designator: OldDesignator=MOTB NewDesignator=T2
+Change Component Designator: OldDesignator=MOTC NewDesignator=T3
+Change Component Designator: OldDesignator=PGND NewDesignator=T5
+Change Component Designator: OldDesignator=R5 NewDesignator=R6
+Change Component Designator: OldDesignator=R6 NewDesignator=R8
+Change Component Designator: OldDesignator=R7 NewDesignator=R9
+Change Component Designator: OldDesignator=R8 NewDesignator=R11
+Change Component Designator: OldDesignator=R9 NewDesignator=R12
+Change Component Designator: OldDesignator=R10 NewDesignator=R13
+Change Component Designator: OldDesignator=R11 NewDesignator=R14
+Change Component Designator: OldDesignator=R12 NewDesignator=R15
+Change Component Designator: OldDesignator=R13 NewDesignator=R16
+Change Component Designator: OldDesignator=R14 NewDesignator=R17
+Change Component Designator: OldDesignator=R15 NewDesignator=R18
+Change Component Designator: OldDesignator=R16 NewDesignator=R19
+Change Component Designator: OldDesignator=R17 NewDesignator=R20
+Change Component Designator: OldDesignator=R18 NewDesignator=R21
+Change Component Designator: OldDesignator=R19 NewDesignator=R22
+Change Component Designator: OldDesignator=R20 NewDesignator=R23
+Change Component Designator: OldDesignator=R21 NewDesignator=R24
+Change Component Designator: OldDesignator=R22 NewDesignator=R25
+Change Component Designator: OldDesignator=R23 NewDesignator=R26
+Change Component Designator: OldDesignator=R24 NewDesignator=R27
+Change Component Designator: OldDesignator=R25 NewDesignator=R28
+Change Component Designator: OldDesignator=R26 NewDesignator=R29
+Change Component Designator: OldDesignator=R27 NewDesignator=R30
+Change Component Designator: OldDesignator=R28 NewDesignator=R31
+Change Component Designator: OldDesignator=R29 NewDesignator=R32
+Change Component Designator: OldDesignator=R30 NewDesignator=R33
+Change Component Designator: OldDesignator=R31 NewDesignator=R34
+Change Component Designator: OldDesignator=R32 NewDesignator=R35
+Change Component Designator: OldDesignator=R33 NewDesignator=R36
+Change Component Designator: OldDesignator=R34 NewDesignator=R37
+Change Component Designator: OldDesignator=R35 NewDesignator=R38
+Change Component Designator: OldDesignator=R36 NewDesignator=R39
+Change Component Designator: OldDesignator=R37 NewDesignator=R40
+Change Component Designator: OldDesignator=R38 NewDesignator=R41
+Change Component Designator: OldDesignator=R39 NewDesignator=R42
+Change Component Designator: OldDesignator=R40 NewDesignator=R43
+Change Component Designator: OldDesignator=R41 NewDesignator=R44
+Change Component Designator: OldDesignator=R42 NewDesignator=R45
+Change Component Designator: OldDesignator=R43 NewDesignator=R46
+Change Component Designator: OldDesignator=R44 NewDesignator=R47
+Change Component Designator: OldDesignator=R45 NewDesignator=R48
+Change Component Designator: OldDesignator=R46 NewDesignator=R49
+Change Component Designator: OldDesignator=R47 NewDesignator=R50
+Change Component Designator: OldDesignator=R48 NewDesignator=R51
+Change Component Designator: OldDesignator=R49 NewDesignator=R52
+Change Component Designator: OldDesignator=R50 NewDesignator=R53
+Change Component Designator: OldDesignator=R51 NewDesignator=R54
+Change Component Designator: OldDesignator=R52 NewDesignator=R55
+Change Component Designator: OldDesignator=R53 NewDesignator=R56
+Change Component Designator: OldDesignator=R54 NewDesignator=R57
+Change Component Designator: OldDesignator=VM NewDesignator=T4
+Added Component: Designator=R5(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Component: Designator=R7(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Component: Designator=R10(RESC1608X55X30NL15T15)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Manufacturer"; Value = "Panasonic"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Part Number"; Value = "ERJ-3GEY0R00V"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=INLA Pin=R5-1
+Added Pin To Net: NetName=INHB Pin=R7-1
+Added Pin To Net: NetName=INLB Pin=R10-1
+Change Net Name : Old Net Name=NetR11_1 New Net Name=NetR14_1
+Change Net Name : Old Net Name=NetR23_1 New Net Name=NetR26_1
+Change Net Name : Old Net Name=NetR26_1 New Net Name=NetR29_1
