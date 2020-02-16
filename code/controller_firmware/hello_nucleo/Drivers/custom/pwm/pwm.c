@@ -74,8 +74,8 @@ void PWM_init(uint32_t controlMode)
     }
 
     /**TIM1 GPIO Configuration
-    PC0     ------> TIM1_CH1
-    PB13    ------> TIM1_CH1N
+    PC0     ------> TIM1_CH1 write timer to here
+    PB13    ------> TIM1_CH1N this matches the previous one
     PA9     ------> TIM1_CH2
     PB0     ------> TIM1_CH2N
     PA10    ------> TIM1_CH3
@@ -206,6 +206,41 @@ void PWM_driveMotor(float throttle)
 
         break;
 
+    case DRV_MODE_SENSORLESS_FOC:
+    	 if(nextDir != motorDir)
+    	 {
+    		 uint32_t highSideChannel = (motorDir == FORWARD) ? TIM_CHANNEL_1  : TIM_CHANNEL_3; // Where do we put Channel 2?
+    		 uint32_t lowSideChannel = (motorDir == FORWARD) ? TIM_CHANNEL_3 : TIM_CHANNEL_1;
+
+    		 // turn off high side
+    		 PWM_disableChannel(highSideChannel);
+    		 // turn on low side
+    		 PWM_setDutyCycle(lowSideChannel, 1);
+    		 // coasting busy loop
+    		 for(uint32_t i = 0; i < COAST_DEAD_TIME; ++i);
+
+             // turn off low side
+             PWM_disableChannelN(lowSideChannel);
+
+             // update duty cycles
+             PWM_setDutyCycle(highSideChannel, fabs(throttle));
+             PWM_setDutyCycle(lowSideChannel, fabs(throttle));
+
+             // turn on opposite high side
+             PWM_enableChannel(lowSideChannel);
+             // turn on opposite low side
+             PWM_enableChannelN(highSideChannel);
+
+    	 }
+    	 else
+    	 {
+             // update duty cycles
+             PWM_setDutyCycle(TIM_CHANNEL_1, fabs(throttle));
+             PWM_setDutyCycle(TIM_CHANNEL_2, fabs(throttle));
+             PWM_setDutyCycle(TIM_CHANNEL_3, fabs(throttle));
+    	 }
+    	break;
+
     default:
 
         break;
@@ -327,6 +362,20 @@ void PWM_configOutputs(uint32_t controlMode)
         motorDir = FORWARD;
 
         break;
+
+    case DRV_MODE_SENSORLESS_FOC:
+
+        PWM_enableChannel(TIM_CHANNEL_1);
+        PWM_enableChannelN(TIM_CHANNEL_2);
+        PWM_enableChannel(TIM_CHANNEL_3);
+
+        PWM_disableChannelN(TIM_CHANNEL_1);
+        PWM_disableChannel(TIM_CHANNEL_2);
+        PWM_disableChannelN(TIM_CHANNEL_3);
+
+        motorDir = FORWARD;
+
+    	break;
 
     default:
 
