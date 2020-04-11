@@ -32,6 +32,9 @@ float getMagCurrent(struct FOC_in* in, struct Motor_Properties* props);
 float getFluxSpeed(struct FOC_in* in, struct Motor_Properties* props);
 float getFluxAngle(struct FOC_in* in, struct Motor_Properties* props);
 
+// PI functions
+float calc_PI(PID_Handle_t* pid_handle, float error);
+
 
 // Public functions:
 
@@ -46,6 +49,13 @@ void FOC_in_init(FOC_in* foc) {
 
   foc->prev_i_d = 0;
   foc->prev_i_q = 0;
+
+  foc->target_i_d = 0;
+  foc->target_i_q = 0;
+
+  PID_HandleInit(&(foc->pid_handle));
+  PID_SetKP(&(foc->pid_handle), k_p);
+  PID_SetKI(&(foc->pid_handle), k_i);
 }
 
 /**
@@ -99,10 +109,14 @@ FOC_out* compute_FOC(FOC_in* in, Motor_Properties* props) {
   in->prev_i_d = forwardPark_out.d;
   in->prev_i_q = forwardPark_out.q;
 
+  //////////////////////////////////////////////
+
   struct Post_Park pid_out;
-  //////////////////////////////////////////////////////////////
-  //TODO implement PID here
-  //////////////////////////////////////////////////////////////
+
+  pid_out.d = PI_Controller(&(in->pid_handle), in->prev_i_d - in->target_i_d);
+  pid_out.q = PI_Controller(&(in->pid_handle), in->prev_i_d - in->target_i_d);
+
+  //////////////////////////////////////////////
 
   // Run the reverse Park transformation
   struct Post_Clarke reversePark_out;

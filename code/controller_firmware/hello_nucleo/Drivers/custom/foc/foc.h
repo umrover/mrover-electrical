@@ -5,6 +5,7 @@
  * Cameron Tressler
  * */
 
+
 #ifndef _FOC_H_
 #define _FOC_H_
 
@@ -13,6 +14,12 @@
 
 // Sampling time
 #define PWM_PERIOD (1 / 2000000)
+
+// Define and tune PI constants
+#define k_p 0
+#define k_i 0
+
+#include "../pid_reg/pid_reg.h"
 
 /**
  * 
@@ -39,6 +46,11 @@ typedef struct FOC_in {
 
   float prev_i_d;
   float prev_i_q;
+
+  float target_i_d;
+  float target_i_q;
+
+  PID_Handle_t pid_handle;
 
 } FOC_in;
 
