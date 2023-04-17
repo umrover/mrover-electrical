@@ -1,0 +1,5 @@
+Record=TopLevelDocument|FileName=1_Headers.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=1_Headers.SchDoc|FileName=4_Mosfet.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=1_Headers.SchDoc|FileName=5_Motors_MCU.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=1_Headers.SchDoc|FileName=6_Power_Fuse_MCU.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=1_Headers.SchDoc|FileName=Voltage_Rails.SchDoc|SheetNumber=2
