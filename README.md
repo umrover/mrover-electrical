@@ -1,6 +1,6 @@
-TODO: add libraries to github
-TODO: push motherboard
-TODO: add readmes to every board folder
-TODO: write readme.md properly
-TODO: push pdb-22 
+TODO: add libraries to github <br>
+TODO: push motherboard <br>
+TODO: add readmes to every board folder <br>
+TODO: write readme.md properly <br>
+TODO: push pdb-22 <br>
 
