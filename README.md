@@ -1,3 +1,7 @@
+# MRover Electrical
+
+Check out our [Wiki](../../wiki/) for more information
+
 TODO: add libraries to github <br>
 TODO: push motherboard <br>
 TODO: add readmes to every board folder <br>
