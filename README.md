@@ -1,3 +1,5 @@
+Please check out the mrover-electrical wiki for more info!
+
 Michigan Mars Rover Team
 
 Hello and Welcome to the Controls and Data Handling (now called Embedded Hardware) git hub repository!
