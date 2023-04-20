@@ -1,6 +1,6 @@
 Michigan Mars Rover Team
 
-Hello and Welcome to the Controls and Data Handling git hub repository!
+Hello and Welcome to the Controls and Data Handling (now called Embedded Hardware) git hub repository!
 
 
 For a brief intro to git, installing gitbash, and using gitbash go to this link:
