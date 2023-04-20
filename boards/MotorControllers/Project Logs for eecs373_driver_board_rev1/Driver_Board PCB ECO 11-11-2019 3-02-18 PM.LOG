@@ -1,5 +1,0 @@
-Removed Pin From Net: NetName=5VD Pin=X4-P$1
-Removed Pin From Net: NetName=PGND Pin=X4-P$5
-Removed Pin From Net: NetName=5VD Pin=X4-P$6
-Removed Pin From Net: NetName=PGND Pin=X4-P$10
-Removed Member From Class: ClassName=01-Driver_Board_Overview Member=X4

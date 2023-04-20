@@ -1,8 +1,0 @@
-Removed Pin From Net: NetName=VBUCK Pin=GLA1-1
-Change Component Designator: OldDesignator=GHA NewDesignator=TP3
-Change Component Designator: OldDesignator=GHB NewDesignator=TP2
-Change Component Designator: OldDesignator=GHC NewDesignator=TP1
-Change Component Designator: OldDesignator=GLA NewDesignator=TP6
-Change Component Designator: OldDesignator=GLB NewDesignator=TP5
-Change Component Designator: OldDesignator=GLC NewDesignator=TP4
-Added Pin To Net: NetName=5VD Pin=U1-28

@@ -1,4 +1,0 @@
-Removed Pin From Net: NetName=GND Pin=X1-P$1
-Removed Pin From Net: NetName=NetQ1_2 Pin=X1-P$5
-Removed Pin From Net: NetName=5V Pin=X1-P$6
-Removed Member From Class: ClassName=mccd Member=X1
