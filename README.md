@@ -1,4 +1,4 @@
 # MRover Electrical
 
-Check out our [Wiki](../../wiki/) for more information
+Check out the [Electrical Wiki](../../wiki/) for more information
 
