@@ -1,0 +1,129 @@
+10/10 evm test:
+Params:
+- DC bus = 20V
+Results:
+- Load nodes are all floating at 17V :grey_question:
+- Buck reg output is at 12V :heavy_check_mark: (which is nominal)
+- Charge pump output voltage is 21.68V :x: should be V_load + 10.5V
+- V_GLS power supply is at 2.8V :x: should be at 11-20V
+-     this is a voltage that comes out of a linear reg feeding on VM (dc bus)
+- DVDD (logic level) is at 5V :heavy_check_mark:
+
+
+
+DRV Repair
+- Replaces DRV -- required a shit ton of heat (air gun at 450 degC + )
+- Don't know if heat pad is solders
+- Some components look golden-brown and delicious
+Unpowered testing:
+- All grounds to chip look good
+- No shorts between any power pins and ground
+Powered testing:
+- Lil spark on startup, but all good
+- 36.0V bus
+- Idle current shows 0.0 on PSU (fake)
+- VCP = 46.5 V :heavy_check_mark:
+- VGLS = 12 V :heavy_check_mark:
+- Split rail config
+- Output of LM5008 buck reg = 12V :heavy_check_mark:
+- Regs are successfully reading and writing
+- Very slight heat on the DRV
+- Load A = 0V
+- Load B = 2.4V
+- Load C = 0.1V
+- (all floating arbitrarily) :heavy_check_mark:
+Unpowered Tests:
+- Load node short check :heavy_check_mark:
+- FET diode check :heavy_check_mark:
+- FET gate-to-source capacitance unclear on high-side; hard to test
+Powered Motor Testing:
+- Motor profiling/calibration works! :heavy_check_mark:
+- Actual speed of motor is about .25x controlled speed :x:
+- GUI thinks that motor is spinning at the correct speed :interrobang:
+
+
+
+11/13/2019 SPI testing with DRV
+- EVM board would respond to nucleo or to TI MCU, but the issue was that we were not powering the DC bus (wrong terminals on PSU)
+- Used spectrum analyzer on TI communication with EVM at startup in search of some special startup sequence, but none was found. It just reads all registers
+- Signal analyzer has different results than GUI for registers at 0x3 and 0x4. This had been observed in earlier testing as well -- ramifications are unclear but it seems like it's not an issue.
+- Signal is at 1.7 MHz
+- Extended wait between read of address 0x1 and 0x2 (enable left high for about 4x as long as usual)
+- Realized we were backsupplying 3.3V to EVM but it has its own vreg
+- Disconnected 3.3V from nucleo to EVM
+- It fucking works
+
+
+
+
+11/19/2019
+- Some pins that are multiplexed to multiple functions (PA2 which is also mapped to TSC and PA3 which is mapped to USART and TSC) don't seem to properly get config'd as EXTI
+- Pins that do work are PB2, PB9, PA9 (those just happen to be ones we tested). PA9 is also on the TSC though....
+- --- the only thing PA3 has that PA9 doesn't according to Table 14 in datasheet is a timer.
+- PA14 is a JTAG CLK and can't be used as an EXTI while debugging or just as a GPIO
+- --- PA14 which was used for `nFault` is now on PB4 and an EXTI does fire
+- --- Need some discriminating logic to diff between EXTI line [9:5] and [15:10] because they map to the same EXTI handler
+- Verified all interrupts planned for use do fire
+- Tried to config TIM2 to send a global interrupt at about 1 Hz
+- --- Handler never seemed to be called
+- --- Reload after underflow (config'd as down counter) didn't seem to work based on looking into memory
+- --- Need to do more checks to verify cfg
+
+
+
+
+11/23/2019
+Struggled to get SPI communications working, but did after a while (see Reber's notes above)
+Verified SPI would work with the intended production pin assignment (PB12 chip select)
+Wrote driver to abstract SPI comms with DRV
+Several pitfalls here -- big issue was getting read/write bit backwards in SPI msgs
+Verified that SPI read does work
+Got HAL PWM set up for 1x mode (still need to do 3 channel complimentary)
+Repopulated EVM board to hook up hall-effects
+Extra verification of power stage
+Ran Reber's Maxon motor using trapezoidal!
+Motor specific notes:
+Made a crazy racket at any duty cycle except for 100%
+Drew disproportionately high power when not at 100% duty cycle
+Very very smooth operation and low power consumption at 100% (which was 24,000 RPM)
+Had pretty good low speed control
+Lab power supply was holding back
+Action items, pending further discussion:
+Get quadrature reading
+Write velocity controller with quadr reading
+Make some test operation utilities to reduce test time overhead
+Continue development on "big picture" main function -- figure out how to organize operational modes
+Figure out how to use git
+Figure more efficient use of manpower (divide tasks)
+Test resolver
+
+
+
+12/7/2019
+First assembled totally didn't work
+Identified jumper configuration as the issue -- VM and Vbuck were tied. Resolved with removal of R7. This would definitely kill to DRV
+Also took off hardware config jumpers for MODE, IDRIVE, VDC signals with removal of R19, R20, R28, R29, R14. This would've only interrupted SPI communication
+Removed dead DRV
+Did some continuity tests:
+Checked all power pins on VM, VBUCK, VGLS, DVDD nets :heavy_check_mark: 
+Checked inductor for buck converter :heavy_check_mark: 
+Checked buck converter diode :heavy_check_mark: 
+Checked hall effects :heavy_check_mark: 
+Powered testing:
+Made sure that, without the DRV, only the VM net had any power :heavy_check_mark: 
+
+
+
+12/7 - 12/8/2019
+Powered on repaired board doesn't work -- LM5008 12V output was stuck at 0.25V :x:
+Buck converter feedback pin was at 53 mV
+Tried to spike fb pin to 2.5V (which is what it's supposed to be) and buck converter would simply follow
+Checked diode parallel to converter and it seems fine
+Checked our voltage splitter for fb pin and also seems fine
+Compared to EVM -- some discrepancies. Resistance from inductor to gnd is 6.6k on EVM, but 12.6k on our own board
+Suggests that the FET in the buck converter is busted maybe
+Diode check on EVM should 0.7V, but showed 1.9V on our own board. Also long charge-up on our own board. 
+
+
+
+
