@@ -151,7 +151,7 @@ GenerateClassCluster=0
 DocumentUniqueId=VYFAOEAD
 
 [Document7]
-DocumentPath=..\..\altium-libraries\mrover-master-lib\dev-board.PcbDoc
+DocumentPath=dev-board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -165,7 +165,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ICAAFWYI
+DocumentUniqueId=OFGWNEQC
 
 [Configuration1]
 Name=Sources
