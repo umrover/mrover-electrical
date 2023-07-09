@@ -1,6 +1,7 @@
-Record=TopLevelDocument|FileName=5V-and-3V3-buck.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=5V-and-3V3-ldo.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=12V-2A-buck.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=12V-5A-buck.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=24V-5A-buck.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=can-stm32g4.SchDoc|SheetNumber=6
+Record=TopLevelDocument|FileName=5V-and-3V3-buck.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=5V-and-3V3-ldo.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=12V-2A-buck.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=12V-5A-buck.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=24V-5A-buck.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=can-stm32g4.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=5V-and-3V3-buck.SchDoc|FileName=connectors.SchDoc|SheetNumber=1
