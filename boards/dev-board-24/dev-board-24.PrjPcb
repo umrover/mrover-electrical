@@ -134,7 +134,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MLTRFZGT
 
 [Document6]
-DocumentPath=5V-and-3V3-buck.SchDoc
+DocumentPath=3V3-buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -151,6 +151,23 @@ GenerateClassCluster=0
 DocumentUniqueId=RUBQPFHN
 
 [Document7]
+DocumentPath=5V-buck.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YOSUQBQZ
+
+[Document8]
 DocumentPath=can-stm32g4.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,8 +184,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VYFAOEAD
 
-[Document8]
-DocumentPath=..\..\altium-libraries\mrover-master-lib\dev-board.PcbDoc
+[Document9]
+DocumentPath=dev-board.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -182,7 +199,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=XQTVRMVN
+DocumentUniqueId=IXYXJGIP
 
 [Configuration1]
 Name=Sources
