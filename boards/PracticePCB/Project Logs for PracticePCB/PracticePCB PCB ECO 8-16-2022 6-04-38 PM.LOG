@@ -1,0 +1,9 @@
+Change Component Footprint: Designator=X1 Old Footprint=43045-0212 New Footprint=44914-0201
+Change component parameters: Designator = "X1" ("X1"); Footprint = "43045-0212"; UniqueID = "\LEINPVQI" ("\LEINPVQI")
+Change component parameters (AddParameter): Name = "DeviceName"; Value = "44914-0201"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "DeviceSetName"; Value = "HEADER_POS2_?"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "GateName_1"; Value = "G$1"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "LibraryName"; Value = "con-molex-micro-fit-3_0_2"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "Package"; Value = "44914-0201"; VariantName = "[No Variations]"
+Change component parameters (AddParameter): Name = "SymbolName_1"; Value = "HEADER_POS2"; VariantName = "[No Variations]"
+Added Room: Name=PracticePCB
