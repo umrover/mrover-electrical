@@ -19,3 +19,4 @@ Status\ Report.txt
 
 # Lock files sometimes left behind
 .~lock.*
+boards/dev-board-24/dev-board-24.html
