@@ -117,23 +117,6 @@ GenerateClassCluster=0
 DocumentUniqueId=ALWSTYCO
 
 [Document5]
-DocumentPath=PDB_Top_Level.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=BBGIEIGY
-
-[Document6]
 DocumentPath=MCU_Sensors_CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=UWLXUWHV
 
-[Document7]
+[Document6]
 DocumentPath=5V_Main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WPSBZNYV
 
-[Document8]
+[Document7]
 DocumentPath=3v3_Main.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
