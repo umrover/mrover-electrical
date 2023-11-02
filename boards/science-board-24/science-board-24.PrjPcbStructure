@@ -1,5 +1,7 @@
-Record=TopLevelDocument|FileName=Science_Board_Top_Level.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=Science_Board_Top_Level.SchDoc|Designator=U_3v3_Buck|SchDesignator=U_3v3_Buck|FileName=3v3_Buck.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=3v3_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Science_Board_Top_Level.SchDoc|Designator=U_5V_Buck|SchDesignator=U_5V_Buck|FileName=5V_Buck.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=5V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Science_Board_Top_Level.SchDoc|Designator=U_12V_Buck|SchDesignator=U_12V_Buck|FileName=12V_Buck.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=12V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Science_Board_Top_Level.SchDoc|Designator=U_MCU_Sensors_CAN|SchDesignator=U_MCU_Sensors_CAN|FileName=MCU_Sensors_CAN.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=MCU_Sensors_CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=3v3_Buck.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=3v3_LDO.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=5V_Buck.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=12V_Buck.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=MCU_Sensors_CAN.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=MOSFETS.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=Therm_power.SchDoc|SheetNumber=7
