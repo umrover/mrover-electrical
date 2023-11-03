@@ -1,8 +1,9 @@
-Record=TopLevelDocument|FileName=PDB_Top_Level.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=PDB_Top_Level.SchDoc|Designator=U_3v3_Main|SchDesignator=U_3v3_Main|FileName=3v3_Main.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=3v3_Main.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=PDB_Top_Level.SchDoc|Designator=U_5V_Main|SchDesignator=U_5V_Main|FileName=5V_Main.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=5V_Main.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=PDB_Top_Level.SchDoc|Designator=U_12V_For_Bucks|SchDesignator=U_12V_For_Bucks|FileName=12V_For_Bucks.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=12V_For_Bucks.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=PDB_Top_Level.SchDoc|Designator=U_12V_Jetson|SchDesignator=U_12V_Jetson|FileName=12V_Jetson.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=12V_Jetson.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=PDB_Top_Level.SchDoc|Designator=U_12V_Main|SchDesignator=U_12V_Main|FileName=12V_Main.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=12V_Main.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=PDB_Top_Level.SchDoc|Designator=U_MCU_Sensors_CAN|SchDesignator=U_MCU_Sensors_CAN|FileName=MCU_Sensors_CAN.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=MCU_Sensors_CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=PDB_Top_Level.SchDoc|FileName=can-stm32g4.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=3v3_Main.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=5V-and-3V3-ldo.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=5V_Main.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=12V_For_Bucks.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=12V_Jetson.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=12V_Rest.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=24V_Main.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=can-stm32g4.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=3v3_Main.SchDoc|FileName=Connectors.SchDoc|SheetNumber=1
