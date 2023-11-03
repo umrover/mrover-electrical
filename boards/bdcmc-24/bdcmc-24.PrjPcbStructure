@@ -1,6 +1,6 @@
-Record=TopLevelDocument|FileName=BDCMC_Top_Level.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=BDCMC_Top_Level.SchDoc|Designator=U_12_5_3v3_Converters|SchDesignator=U_12_5_3v3_Converters|FileName=12_5_3v3_Converters.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=12_5_3v3_Converters.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=BDCMC_Top_Level.SchDoc|Designator=U_24V_Converter|SchDesignator=U_24V_Converter|FileName=24V_Converter.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=24V_Converter.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=BDCMC_Top_Level.SchDoc|Designator=U_HBridge|SchDesignator=U_HBridge|FileName=HBridge.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=HBridge.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=BDCMC_Top_Level.SchDoc|Designator=U_MCU_CAN|SchDesignator=U_MCU_CAN|FileName=MCU_CAN.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=MCU_CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=BDCMC_Top_Level.SchDoc|FileName=MCU_CAN.SchDoc|SheetNumber=5
+Record=TopLevelDocument|FileName=12_5_3v3_Converters.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=24V_Converter.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=Connectors.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=HBridge_Design.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=HBridge_Top_Level.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=MCU_CAN.SchDoc|SheetNumber=6
