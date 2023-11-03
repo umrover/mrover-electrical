@@ -1,6 +1,5 @@
-Record=TopLevelDocument|FileName=12_5_3v3_Converters.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=24V_Converter.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=Connectors.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=HBridge_Design.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=HBridge_Top_Level.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=MCU_CAN.SchDoc|SheetNumber=6
+Record=TopLevelDocument|FileName=12_5_3v3_Converters.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=24V_Converter.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=HBridge_Design.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=HBridge_Top_Level.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=12_5_3v3_Converters.SchDoc|FileName=MCU_CAN.SchDoc|SheetNumber=5

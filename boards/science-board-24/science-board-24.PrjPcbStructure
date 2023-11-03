@@ -1,7 +1,6 @@
 Record=TopLevelDocument|FileName=3v3_Buck.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=3v3_LDO.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=3v3_LDO.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=5V_Buck.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=12V_Buck.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=MCU_Sensors_CAN.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=MOSFETS.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=3v3_Buck.SchDoc|FileName=Therm_power.SchDoc|SheetNumber=8
