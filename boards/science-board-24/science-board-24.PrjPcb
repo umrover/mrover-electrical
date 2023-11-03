@@ -151,23 +151,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PYXAFSSG
 
 [Document7]
-DocumentPath=Therm_power.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=7
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HXPAZCTP
-
-[Document8]
 DocumentPath=science-board-24.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=Science_Board_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
