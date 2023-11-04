@@ -66,7 +66,7 @@ GenerateClassCluster=0
 DocumentUniqueId=FIOXSYQM
 
 [Document2]
-DocumentPath=24V_Converter.SchDoc
+DocumentPath=24V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=IMNDFYDZ
 
 [Document3]
-DocumentPath=12_5_3v3_Converters.SchDoc
+DocumentPath=12V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
