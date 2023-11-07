@@ -1,6 +1,6 @@
 Record=TopLevelDocument|FileName=12V_Buck.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=12V_Buck.SchDoc|FileName=24V_Buck.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=12V_Buck.SchDoc|FileName=Connectors.SchDoc|SheetNumber=1
 Record=NoMainPathDocument|SourceDocument=12V_Buck.SchDoc|FileName=HBridge_Design.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=12V_Buck.SchDoc|FileName=HBridge_Top_Level.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=12V_Buck.SchDoc|FileName=MCU_CAN.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=12V_Buck.SchDoc|FileName=Motor_12V_Buck.SchDoc|SheetNumber=2
