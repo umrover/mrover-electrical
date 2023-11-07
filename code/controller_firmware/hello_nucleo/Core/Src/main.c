@@ -24,13 +24,9 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 //#include "gpio.h"
-<<<<<<< HEAD
-
-=======
 #include "spi.h"
 #include "pwm.h"
 #include "drv8353rx.h"
->>>>>>> added coasting between direction switch
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
