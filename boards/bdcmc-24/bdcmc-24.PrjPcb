@@ -83,23 +83,6 @@ GenerateClassCluster=0
 DocumentUniqueId=IMNDFYDZ
 
 [Document3]
-DocumentPath=12V_Buck.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=1
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KVSJIYNY
-
-[Document4]
 DocumentPath=HBridge_Top_Level.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -116,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EDQKWPAZ
 
-[Document5]
+[Document4]
 DocumentPath=HBridge_Design.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KODZFWVD
 
-[Document6]
+[Document5]
 DocumentPath=..\dev-board-24\MCU_CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +133,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VABQRRJT
 
-[Document7]
+[Document6]
 DocumentPath=BDCMC_PCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -167,7 +150,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JJKJHEAI
 
-[Document8]
+[Document7]
 DocumentPath=bdcmc-24.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -184,7 +167,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document9]
+[Document8]
 DocumentPath=CAMtastic1.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -201,7 +184,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document10]
+[Document9]
 DocumentPath=CAMtastic2.Cam
 AnnotationEnabled=1
 AnnotateStartValue=1
