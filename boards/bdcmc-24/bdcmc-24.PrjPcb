@@ -253,6 +253,10 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for bdcmc-24\BDCMC_PCB.REP
 DItemRevisionGUID=
 
+[GeneratedDocument14]
+DocumentPath=Project Outputs for bdcmc-24\Design Rule Check - BDCMC_PCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
