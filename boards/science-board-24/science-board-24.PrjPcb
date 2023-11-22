@@ -184,6 +184,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FKTFAVUU
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for science-board-24\Design Rule Check - Science_Board_PCB.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
