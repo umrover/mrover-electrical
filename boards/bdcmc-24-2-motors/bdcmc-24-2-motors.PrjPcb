@@ -40,7 +40,7 @@ ManagedProjectGUID=
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
 CrossRefLocationStyle=1
-CrossRefPorts=3
+CrossRefPorts=0
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
@@ -52,7 +52,7 @@ PrefsRevisionGUID=
 [Document1]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=200
+AnnotateStartValue=0
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -67,7 +67,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KIKZGXVN
 
 [Document2]
-DocumentPath=MCU.SchDoc
+DocumentPath=TLD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=100
 AnnotationIndexControlEnabled=1
@@ -103,7 +103,7 @@ DocumentUniqueId=
 [Document4]
 DocumentPath=Dir_Control.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=500
+AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -120,7 +120,7 @@ DocumentUniqueId=DJTJQEGN
 [Document5]
 DocumentPath=Power.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=300
+AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -137,7 +137,7 @@ DocumentUniqueId=DWZTBNLQ
 [Document6]
 DocumentPath=H_Bridge.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=600
+AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -154,7 +154,7 @@ DocumentUniqueId=KDKZGFFO
 [Document7]
 DocumentPath=Buck_12V.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=400
+AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
@@ -171,11 +171,11 @@ DocumentUniqueId=HLAOOUMK
 [Document8]
 DocumentPath=CAN_Trcv.SchDoc
 AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
+AnnotateStartValue=300
+AnnotationIndexControlEnabled=1
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=6
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -220,6 +220,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document11]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=100
+AnnotationIndexControlEnabled=1
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IRLGDBNF
+
+[Document12]
 DocumentPath=MCU.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
