@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=Dir_Control.SchDoc
+DocumentPath=DirCtl.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
@@ -135,7 +135,7 @@ GenerateClassCluster=0
 DocumentUniqueId=DWZTBNLQ
 
 [Document6]
-DocumentPath=H_Bridge.SchDoc
+DocumentPath=HB.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=400
 AnnotationIndexControlEnabled=1
@@ -152,7 +152,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KDKZGFFO
 
 [Document7]
-DocumentPath=Buck_12V.SchDoc
+DocumentPath=Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=200
 AnnotationIndexControlEnabled=1
