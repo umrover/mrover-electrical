@@ -83,7 +83,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ALWSTYCO
 
 [Document3]
-DocumentPath=12V_Jetson.SchDoc
+DocumentPath=18V_Jetson.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
