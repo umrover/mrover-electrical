@@ -1,0 +1,10 @@
+Record=TopLevelDocument|FileName=3V3_Buck.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=5V_Buck.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=8V_Buck.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=24V_Buck.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=CAN_Transceiver.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=Connectors.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=LDOs.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=MCU.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=TLD.SchDoc|SheetNumber=1
