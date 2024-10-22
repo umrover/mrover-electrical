@@ -1,0 +1,4 @@
+Externally switching buck controller notes: 
+
+part number - https://www.ti.com/lit/ds/symlink/lm25148.pdf
+
