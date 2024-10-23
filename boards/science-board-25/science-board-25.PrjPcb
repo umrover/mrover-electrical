@@ -49,23 +49,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=5V_Buck.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JBMEQSQY
-
-[Document2]
 DocumentPath=12V_Buck_Motor.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -82,25 +65,8 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FJGRNECX
 
-[Document3]
-DocumentPath=3V3_Buck.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=IKVYDEIV
-
-[Document4]
-DocumentPath=7V_Buck.SchDoc
+[Document2]
+DocumentPath=7V_5V_3V3_Bucks.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -116,7 +82,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LCYXWEWR
 
-[Document5]
+[Document3]
 DocumentPath=TLD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -133,7 +99,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GNIUQCGZ
 
-[Document6]
+[Document4]
 DocumentPath=CAN_Transceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,7 +116,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJDUYGDT
 
-[Document7]
+[Document5]
 DocumentPath=Input_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
