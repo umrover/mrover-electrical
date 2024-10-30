@@ -1,0 +1,21 @@
+General application notes:
+Uses internal LDO to provide 5V VCC pin
+TI recommneds adding a Schottky in series with the VIN pin to prevent reverse current flow out from VOUT to VIN 
+t_p is the oscillator period 
+t_off is the minimum off time, typically 90 ns
+Once VCC voltage exceeds 3v3 and EN pin is connected to a  >1V source, the soft start sequence begins
+Output remains active unless the VCC voltage falls below 3.1V or EN is low 
+Normally, VDDA is 5V except when in PFM mode with a light or no load on output then it goes to 3v3
+Can set the output to 3v3 by connecting FB to VDDA
+Can set output to 5V or 12V by installing 24.9k or 49.9k between FB and VDDA
+
+
+Components:
+Rt = 10k -> ~1988 kHz switching frequency
+Ceramic cap from VCC to PGND -> recommended value b/w 2.2 and 10 uF
+Bypass VDDA with a 100nF or higher ceramic to reduce rail noise 
+Tie VCCX to GND
+Enable resistor divider 1k & 40k provides enable with around a 1.4V input
+worry about pgood later 
+
+
