@@ -239,7 +239,7 @@ GenerateClassCluster=0
 DocumentUniqueId=KJDUYGDT
 
 [Document12]
-DocumentPath=Current_Thermal.SchDoc
+DocumentPath=Thermal_Sens.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -254,6 +254,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZWCKLMBG
+
+[Document13]
+DocumentPath=Current_Sens.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PWLAJUKG
 
 [Configuration1]
 Name=Sources
