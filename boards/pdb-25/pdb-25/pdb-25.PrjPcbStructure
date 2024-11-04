@@ -1,14 +1,15 @@
-Record=TopLevelDocument|FileName=TLD.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Connectors.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=24V_Buck.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=24V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=12V_Buck.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=12V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=12V_Buck.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=12V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=5V_Buck.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=5V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=18V_Buck.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=18V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=7V_Buck.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=7V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=3V3_Buck.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=3V3_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=LDOs.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=LDOs.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=MCU.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=CAN_Transceiver.SchDoc|SheetNumber=11|SymbolType=Normal|RawFileName=CAN_Transceiver.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Thermal_Sens.SchDoc|SheetNumber=12|SymbolType=Normal|RawFileName=Thermal_Sens.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=Designator|SchDesignator=Designator|FileName=Current_Sens.SchDoc|SheetNumber=13|SymbolType=Normal|RawFileName=Current_Sens.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=TopLevelDocument|FileName=3V3_Buck.SchDoc|SheetNumber=9
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=5V_Buck.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=7V_Buck.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_5V_3V3.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_Auton_LED.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_Rest.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=18V_Buck.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=24V_Buck.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=CAN_Transceiver.SchDoc|SheetNumber=12
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=Connectors.SchDoc|SheetNumber=15
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=Current_Sens.SchDoc|SheetNumber=14
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=LDOs.SchDoc|SheetNumber=10
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=MCU.SchDoc|SheetNumber=11
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=Thermal_Sens.SchDoc|SheetNumber=13
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=TLD.SchDoc|SheetNumber=1
