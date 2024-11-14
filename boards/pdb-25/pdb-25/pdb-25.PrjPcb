@@ -69,6 +69,23 @@ GenerateClassCluster=0
 DocumentUniqueId=XIUANPUG
 
 [Document2]
+DocumentPath=3V3_Buck_For_Auton_LED.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=14
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WMIRQFXC
+
+[Document3]
 DocumentPath=12V_Buck_For_5V_3V3.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -85,7 +102,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JGBWJQLU
 
-[Document3]
+[Document4]
 DocumentPath=12V_Buck_For_Rest.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -102,7 +119,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GVITZYSU
 
-[Document4]
+[Document5]
 DocumentPath=24V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -119,7 +136,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MVWJOQTV
 
-[Document5]
+[Document6]
 DocumentPath=18V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -136,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=CBVYYMSC
 
-[Document6]
+[Document7]
 DocumentPath=5V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -153,7 +170,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JBMEQSQY
 
-[Document7]
+[Document8]
 DocumentPath=7V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,7 +187,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LCYXWEWR
 
-[Document8]
+[Document9]
 DocumentPath=3V3_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -187,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IKVYDEIV
 
-[Document9]
+[Document10]
 DocumentPath=LDOs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -204,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KNRUDKRC
 
-[Document10]
+[Document11]
 DocumentPath=..\..\bdcmc_25\MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GNPNKAPH
 
-[Document11]
+[Document12]
 DocumentPath=CAN_Transceiver.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KJDUYGDT
 
-[Document12]
+[Document13]
 DocumentPath=Thermal_Sens.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +272,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ZWCKLMBG
 
-[Document13]
+[Document14]
 DocumentPath=Current_Sens.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +289,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PWLAJUKG
 
-[Document14]
+[Document15]
 DocumentPath=Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -289,7 +306,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TEDOYKXA
 
-[Document15]
+[Document16]
 DocumentPath=pdb-25.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
