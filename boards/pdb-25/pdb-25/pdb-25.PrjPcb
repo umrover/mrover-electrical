@@ -323,6 +323,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LUNYRTTO
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for pdb-25\Design Rule Check - pdb-25.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
