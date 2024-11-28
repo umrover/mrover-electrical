@@ -171,7 +171,7 @@ GenerateClassCluster=0
 DocumentUniqueId=JBMEQSQY
 
 [Document8]
-DocumentPath=7V_Buck.SchDoc
+DocumentPath=12V_Buck_For_LDOs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
