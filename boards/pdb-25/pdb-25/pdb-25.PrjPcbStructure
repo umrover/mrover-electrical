@@ -1,9 +1,9 @@
 Record=TopLevelDocument|FileName=3V3_Buck.SchDoc|SheetNumber=9
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=3V3_Buck_For_Auton_LED.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=5V_Buck.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=7V_Buck_For_LDOs.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_5V_3V3.SchDoc|SheetNumber=3
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_Auton_LED.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_LDOs.SchDoc|SheetNumber=8
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=12V_Buck_For_Rest.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=18V_Buck.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=3V3_Buck.SchDoc|FileName=24V_Buck.SchDoc|SheetNumber=5
