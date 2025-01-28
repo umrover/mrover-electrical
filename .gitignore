@@ -23,3 +23,8 @@ boards/dev-board-24/dev-board-24.html
 
 #macos 
 *.DS_Store
+
+# side projects
+side-projects/*/*
+!side-projects/*/*.tex
+!side-projects/*/*.pdf

@@ -1,0 +1,28 @@
+%! TEX root = /home/mcprisk/Projects/571/hw1/hw1.tex
+\documentclass{article}
+\usepackage[letterpaper, margin=0.5in]{geometry}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{setspace}
+\graphicspath{ {./images/} }
+\title{Canalyzer-Box Project}
+\author{MRover EHW Team}
+
+\begin{document}
+\maketitle
+\section{Project Summary}
+The Canalyzer project seeks to recreate the viewer functionality from the Vector
+Canalyzer tool.  It will have a microcontroller connected to a LCD to display all of
+the messages which are sent over the CAN bus connected to the board.  There should be
+at least one set of two molex microfit 4 pin connectors for can input and passthrough.
+Support power delivery from 5V wall wart (DC barrel jack in), ideally keep power draw 
+$<1$A but $<2$A is satisfactory.  3D print a case for the final product.
+
+\section{Project Extensions}
+\begin{itemize}
+\item Another separate set with its own transciever can be added as DNP in case we eventually
+require two separate CAN busses in the future, but that is not strictly necessary.
+\item Add support for sending test messages with an adjustable CAN ID (encoder knob perhaps).
+\end{itemize}
+
+\end{document}
