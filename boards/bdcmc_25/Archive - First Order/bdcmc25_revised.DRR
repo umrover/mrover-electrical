@@ -1,0 +1,21 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: bdcmc25_revised.PcbDoc   10/27/2024  10:51:46 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : bdcmc25_revised.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.201mm)                                            Round             47        PTH        10.32inch (262.21mm)
+T2      8mil (0.203mm)                                            Round             1102      PTH        142.01inch (3607.15mm)
+T3      39mil (1.001mm)                                           Round             28        PTH        17.93inch (455.52mm)
+T4      40mil (1.021mm)                                           Round             56        PTH        18.00inch (457.19mm)
+T5      43mil (1.1mm)                                             Round             3         PTH        0.20inch (5.08mm)
+T6      150mil (3.81mm)                                           Round             5         PTH        13.96inch (354.59mm)
+T7      40mil (1.021mm)                                           Round             24        NPTH       15.13inch (384.18mm)
+T8      50mil (1.27mm)                                            Round             6         NPTH       3.54inch (89.89mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              1271
+
+Total Processing Time (hh:mm:ss) : 00:00:01
