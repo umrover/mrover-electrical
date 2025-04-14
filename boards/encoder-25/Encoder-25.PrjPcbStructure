@@ -1,4 +1,5 @@
 Record=TopLevelDocument|FileName=3V3_5V.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=3V3_5V.SchDoc|FileName=CAN.SchDoc|SheetNumber=2
 Record=NoMainPathDocument|SourceDocument=3V3_5V.SchDoc|FileName=Encoder.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=3V3_5V.SchDoc|FileName=Encoder.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=3V3_5V.SchDoc|FileName=MCU.SchDoc|SheetNumber=1
