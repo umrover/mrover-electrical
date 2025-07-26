@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=I2C_MUX.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=USB_To_UART.SchDoc|SheetNumber=2
