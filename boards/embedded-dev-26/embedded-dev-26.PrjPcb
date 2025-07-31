@@ -1109,14 +1109,15 @@ Net1=NetName=3V3|NetColor=clYellow
 Net2=NetName=3V3_VCCD|NetColor=$000083FD
 Net3=NetName=5V|NetColor=$006E6EFF
 Net4=NetName=5V_USB|NetColor=$006E6EFF
-Net5=NetName=Data_In_N|NetColor=$00C5DEE5
-Net6=NetName=Data_In_P|NetColor=$006EFF6E
-Net7=NetName=Data_N|NetColor=$00C5DEE5
-Net8=NetName=Data_P|NetColor=$006EFF6E
-Net9=NetName=GND|NetColor=clBlack
-Net10=NetName=VCCIO|NetColor=$000083FD
-Net11=NetName=VPHY|NetColor=$000083FD
-Net12=NetName=VPLL|NetColor=$000083FD
+Net5=NetName=5V_VBUS|NetColor=$006E6EFF
+Net6=NetName=Data_In_N|NetColor=$00C5DEE5
+Net7=NetName=Data_In_P|NetColor=$006EFF6E
+Net8=NetName=Data_N|NetColor=$00C5DEE5
+Net9=NetName=Data_P|NetColor=$006EFF6E
+Net10=NetName=GND|NetColor=clBlack
+Net11=NetName=VCCIO|NetColor=$000083FD
+Net12=NetName=VPHY|NetColor=$000083FD
+Net13=NetName=VPLL|NetColor=$000083FD
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
