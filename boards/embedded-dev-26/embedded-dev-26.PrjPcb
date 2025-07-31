@@ -117,6 +117,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQVDZYGL
 
+[DiffPairSuffix1]
+Positive=_+
+Negative=_-
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -772,6 +776,14 @@ Type148=1
 Type149=1
 Type150=1
 Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
 
 [Difference Levels]
 Type1=1
@@ -856,6 +868,11 @@ Type79=1
 Type80=1
 Type81=1
 Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1019,6 +1036,8 @@ Type158=0
 Type159=0
 Type160=0
 Type161=0
+Type162=1
+Type163=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
@@ -1084,6 +1103,20 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3V3|NetColor=clYellow
+Net2=NetName=3V3_VCCD|NetColor=$000083FD
+Net3=NetName=5V|NetColor=$006E6EFF
+Net4=NetName=5V_USB|NetColor=$006E6EFF
+Net5=NetName=Data_In_N|NetColor=$00C5DEE5
+Net6=NetName=Data_In_P|NetColor=$006EFF6E
+Net7=NetName=Data_N|NetColor=$00C5DEE5
+Net8=NetName=Data_P|NetColor=$006EFF6E
+Net9=NetName=GND|NetColor=clBlack
+Net10=NetName=VCCIO|NetColor=$000083FD
+Net11=NetName=VPHY|NetColor=$000083FD
+Net12=NetName=VPLL|NetColor=$000083FD
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
