@@ -121,6 +121,10 @@ DocumentUniqueId=DQVDZYGL
 Positive=_+
 Negative=_-
 
+[DiffPairSuffix2]
+Positive=_H
+Negative=_L
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1110,14 +1114,21 @@ Net2=NetName=3V3_VCCD|NetColor=$000083FD
 Net3=NetName=5V|NetColor=$006E6EFF
 Net4=NetName=5V_USB|NetColor=$006E6EFF
 Net5=NetName=5V_VBUS|NetColor=$006E6EFF
-Net6=NetName=Data_In_N|NetColor=$00C5DEE5
-Net7=NetName=Data_In_P|NetColor=$006EFF6E
-Net8=NetName=Data_N|NetColor=$00C5DEE5
-Net9=NetName=Data_P|NetColor=$006EFF6E
-Net10=NetName=GND|NetColor=clBlack
-Net11=NetName=VCCIO|NetColor=$000083FD
-Net12=NetName=VPHY|NetColor=$000083FD
-Net13=NetName=VPLL|NetColor=$000083FD
+Net6=NetName=CAN_H|NetColor=$006EFF6E
+Net7=NetName=CAN_L|NetColor=$00FFFF6E
+Net8=NetName=Data_In_N|NetColor=$00FFFF6E
+Net9=NetName=Data_In_P|NetColor=$006EFF6E
+Net10=NetName=Data_N|NetColor=$00FFFF6E
+Net11=NetName=Data_P|NetColor=$006EFF6E
+Net12=NetName=GND|NetColor=clBlack
+Net13=NetName=NRST|NetColor=$0089007D
+Net14=NetName=RESET_MUX|NetColor=clYellow
+Net15=NetName=SWCLK|NetColor=$0089007D
+Net16=NetName=SWDIO|NetColor=$0089007D
+Net17=NetName=SWO|NetColor=$0089007D
+Net18=NetName=VCCIO|NetColor=$000083FD
+Net19=NetName=VPHY|NetColor=$000083FD
+Net20=NetName=VPLL|NetColor=$000083FD
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
