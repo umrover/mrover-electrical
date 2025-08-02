@@ -1,4 +1,6 @@
-Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=I2C_MUX.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=USB_To_UART.SchDoc|SheetNumber=2
+Record=TopLevelDocument|FileName=TLD.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_3V3_LDO|SchDesignator=U_3V3_LDO|FileName=3V3_LDO.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=3V3_LDO.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_CAN|SchDesignator=U_CAN|FileName=CAN.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_I2C_MUX|SchDesignator=U_I2C_MUX|FileName=I2C_MUX.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=I2C_MUX.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_MCU|SchDesignator=U_MCU|FileName=MCU.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_USB_To_UART|SchDesignator=U_USB_To_UART|FileName=USB_To_UART.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=USB_To_UART.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
