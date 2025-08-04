@@ -185,6 +185,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STDYQNOR
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for embedded-dev-26\Design Rule Check - embedded-dev-26.html
+DItemRevisionGUID=
+
 [DiffPairSuffix1]
 Positive=_+
 Negative=_-
