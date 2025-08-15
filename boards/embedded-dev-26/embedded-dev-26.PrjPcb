@@ -333,7 +333,7 @@ OutputDefault1=0
 Name=Documentation Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
-PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
+PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=0
 OutputType1=Composite
 OutputName1=Composite Drawing
 OutputDocumentPath1=
@@ -405,7 +405,9 @@ OutputName12=Schematic Prints
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.12|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=0|PaperKind=Letter|PaperIndex=1
+Configuration12_Name1=OutputConfigurationParameter1
+Configuration12_Item1=Record=SchPrintView|ShowNoERC=True|ShowParamSet=True|ShowProbe=True|ShowBlanket=True|NoERCSymbolsToShow="Thin Cross","Thick Cross","Small Cross",Checkbox,Triangle|ShowNote=True|ShowNoteCollapsed=True|ShowOpenEnds=True|ExpandDesignator=True|ExpandNetLabel=False|ExpandPort=False|ExpandSheetNum=False|ExpandDocNum=False|PrintArea=0|PrintAreaRect.X1=0|PrintAreaRect.Y1=0|PrintAreaRect.X2=0|PrintAreaRect.Y2=0|DocumentPath=C:\Users\amsie\OneDrive\Documents\GitHub\mrover-electrical\boards\embedded-dev-26\3V3_LDO.SchDoc
 OutputType13=SimView Print
 OutputName13=SimView Prints
 OutputDocumentPath13=
@@ -1182,7 +1184,7 @@ PartTypes=0
 
 [NetInfos]
 Net1=NetName=3V3|NetColor=clYellow
-Net2=NetName=3V3_VCCD|NetColor=$000083FD
+Net2=NetName=3V3_VCCD|NetColor=clYellow
 Net3=NetName=5V|NetColor=$006E6EFF
 Net4=NetName=5V_USB|NetColor=$006E6EFF
 Net5=NetName=5V_VBUS|NetColor=$006E6EFF
@@ -1192,14 +1194,14 @@ Net8=NetName=Data_In_N|NetColor=$00FFFF6E
 Net9=NetName=Data_In_P|NetColor=$006EFF6E
 Net10=NetName=Data_N|NetColor=$00FFFF6E
 Net11=NetName=Data_P|NetColor=$006EFF6E
-Net12=NetName=GND|NetColor=clBlack
+Net12=NetName=GND|NetColor=$00908D91
 Net13=NetName=NRST|NetColor=$0089007D
 Net14=NetName=SWCLK|NetColor=$0089007D
 Net15=NetName=SWDIO|NetColor=$0089007D
 Net16=NetName=SWO|NetColor=$0089007D
 Net17=NetName=VCCIO|NetColor=$000083FD
-Net18=NetName=VPHY|NetColor=$000083FD
-Net19=NetName=VPLL|NetColor=$000083FD
+Net18=NetName=VPHY|NetColor=clYellow
+Net19=NetName=VPLL|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
