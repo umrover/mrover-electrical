@@ -84,23 +84,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BKUIRHMT
 
 [Document3]
-DocumentPath=CAN.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=2
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=FKZEKGDD
-
-[Document4]
 DocumentPath=I2C_MUX.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +100,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DQVDZYGL
 
-[Document5]
+[Document4]
 DocumentPath=3V3_LDO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +117,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JETLWJEU
 
-[Document6]
+[Document5]
 DocumentPath=TLD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -150,6 +133,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WPWQOQZX
+
+[Document6]
+DocumentPath=CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=2
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=FKZEKGDD
 
 [Document7]
 DocumentPath=embedded-dev-26.BomDoc
