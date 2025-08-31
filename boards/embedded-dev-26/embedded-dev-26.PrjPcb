@@ -185,8 +185,169 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=STDYQNOR
 
+[Document9]
+DocumentPath=Project Outputs for embedded-dev-26\CAMtastic1.Cam
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for embedded-dev-26\Design Rule Check - embedded-dev-26.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26.REP
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Bottom_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Bottom_Assembly.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Bottom_Component_Center.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Bottom_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Bottom_Designator.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Copper_Signal_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Copper_Signal_2.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Copper_Signal_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Copper_Signal_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Drawing_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Drillmap_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Keep-out.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Legend_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Legend_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Mechanical_1.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument19]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Mechanical_6.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument20]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Mechanical_13.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument21]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Mechanical_15.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument22]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Mechanical_22.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument23]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_NPTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument24]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Pads_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument25]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Pads_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument26]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Paste_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument27]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Paste_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument28]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Profile.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument29]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_PTH_Drill.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument30]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Soldermask_Bot.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument31]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Soldermask_Top.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument32]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Top_3D_Body.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument33]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Top_Assembly.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument34]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Top_Component_Center.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument35]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Top_Courtyard.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument36]
+DocumentPath=Project Outputs for embedded-dev-26\embedded-dev-26_Top_Designator.gbr
+DItemRevisionGUID=
+
+[GeneratedDocument37]
+DocumentPath=Project Outputs for embedded-dev-26\Pick Place for embedded-dev-26.csv
 DItemRevisionGUID=
 
 [DiffPairSuffix1]
@@ -431,6 +592,10 @@ OutputName2=Generates pick and place files
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
+Configuration2_Name1=ForceUpdateSettings
+Configuration2_Item1=False
+Configuration2_Name2=OutputConfigurationParameter1
+Configuration2_Item2=Record=PickPlaceView|Units=Metric|GenerateCSVFormat=True|GenerateTextFormat=False|ShowUnits=False|Separator=.|ExcludeFilterParam=False|IncludeVariations=False|IncludeStandardNoBOM=True|Filter= |FilterActive=False|YFlip=False|DifferentFootprints=False|Column#1=Name:Designator,Fixed:True,Metric:False,Visible:True,Sort:None,Position:0|Column#2=Name:Comment,Fixed:True,Metric:False,Visible:True,Sort:None,Position:1|Column#3=Name:Layer,Fixed:True,Metric:False,Visible:True,Sort:None,Position:2|Column#4=Name:Footprint,Fixed:True,Metric:False,Visible:True,Sort:None,Position:3|Column#5=Name:Footprint Description,Fixed:True,Metric:False,Visible:False,Sort:None,Position:4|Column#6=Name:Center-X,Fixed:True,Metric:True,Visible:True,Sort:None,Position:5|Column#7=Name:Center-Y,Fixed:True,Metric:True,Visible:True,Sort:None,Position:6|Column#8=Name:Rotation,Fixed:True,Metric:False,Visible:True,Sort:None,Position:7|Column#9=Name:Description,Fixed:True,Metric:False,Visible:True,Sort:None,Position:8|Column#10=Name:ComponentKind,Fixed:True,Metric:False,Visible:False,Sort:None,Position:9|Column#11=Name:Height,Fixed:True,Metric:True,Visible:False,Sort:None,Position:10|Column#12=Name:Ref-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:11|Column#13=Name:Ref-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:12|Column#14=Name:Pad-X,Fixed:True,Metric:True,Visible:False,Sort:None,Position:13|Column#15=Name:Pad-Y,Fixed:True,Metric:True,Visible:False,Sort:None,Position:14|Column#16=Name:Variation,Fixed:True,Metric:False,Visible:False,Sort:None,Position:15|Column#17=Name:Check_prices,Fixed:False,Metric:False,Visible:False,Sort:None,Position:22,Type:0|Column#18=Name:SymbolName_1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:73,Type:0|Column#19=Name:Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:32,Type:0|Column#20=Name:LatestRevisionNote,Fixed:False,Metric:False,Visible:False,Sort:None,Position:46,Type:0|Column#21=Name:Rated Voltage (DC),Fixed:False,Metric:False,Visible:False,Sort:None,Position:68,Type:0|Column#22=Name:SnapEDA_Link,Fixed:False,Metric:False,Visible:False,Sort:None,Position:72,Type:0|Column#23=Name:Length,Fixed:False,Metric:False,Visible:False,Sort:None,Position:47,Type:0|Column#24=Name:Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:79,Type:0|Column#25=Name:Max Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:55,Type:0|Column#26=Name:Min Operating Temperature,Fixed:False,Metric:False,Visible:False,Sort:None,Position:57,Type:0|Column#27=Name:MP,Fixed:False,Metric:False,Visible:False,Sort:None,Position:59,Type:0|Column#28=Name:Category,Fixed:False,Metric:False,Visible:False,Sort:None,Position:21,Type:0|Column#29=Name:Frequency,Fixed:False,Metric:False,Visible:False,Sort:None,Position:39,Type:0|Column#30=Name:Power,Fixed:False,Metric:False,Visible:False,Sort:None,Position:63,Type:0|Column#31=Name:Packaging,Fixed:False,Metric:False,Visible:False,Sort:None,Position:62,Type:0|Column#32=Name:Contact Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:29,Type:0|Column#33=Name:Washable,Fixed:False,Metric:False,Visible:False,Sort:None,Position:81,Type:0|Column#34=Name:Datasheet,Fixed:False,Metric:False,Visible:False,Sort:None,Position:33,Type:0|Column#35=Name:Manufacturer_Part_Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:53,Type:0|Column#36=Name:Load Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:49,Type:0|Column#37=Name:Mount,Fixed:False,Metric:False,Visible:False,Sort:None,Position:58,Type:0|Column#38=Name:LibraryName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:48,Type:0|Column#39=Name:Match Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:54,Type:0|Column#40=Name:Width,Fixed:False,Metric:False,Visible:False,Sort:None,Position:82,Type:0|Column#41=Name:DeviceSetName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:36,Type:0|Column#42=Name:Resistance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:70,Type:0|Column#43=Name:Assembled?,Fixed:False,Metric:False,Visible:False,Sort:None,Position:17,Type:0|Column#44=Name:Terminal Plating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:75,Type:0|Column#45=Name:GateName_1,Fixed:False,Metric:False,Visible:False,Sort:None,Position:42,Type:0|Column#46=Name:Availability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:18,Type:0|Column#47=Name:Case/Size Code,Fixed:False,Metric:False,Visible:False,Sort:None,Position:20,Type:0|Column#48=Name:Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:76,Type:0|Column#49=Name:Application,Fixed:False,Metric:False,Visible:False,Sort:None,Position:16,Type:0|Column#50=Name:Frequency Stability,Fixed:False,Metric:False,Visible:False,Sort:None,Position:40,Type:0|Column#51=Name:ComponentLink2URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:27,Type:0|Column#52=Name:Forward Voltage,Fixed:False,Metric:False,Visible:False,Sort:None,Position:38,Type:0|Column#53=Name:Forward Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:37,Type:0|Column#54=Name:Copyright,Fixed:False,Metric:False,Visible:False,Sort:None,Position:31,Type:0|Column#55=Name:Manufacturer,Fixed:False,Metric:False,Visible:False,Sort:None,Position:50,Type:0|Column#56=Name:Frequency Tolerance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:41,Type:0|Column#57=Name:MF,Fixed:False,Metric:False,Visible:False,Sort:None,Position:56,Type:0|Column#58=Name:Operation Force,Fixed:False,Metric:False,Visible:False,Sort:None,Position:60,Type:0|Column#59=Name:Type,Fixed:False,Metric:False,Visible:False,Sort:None,Position:77,Type:0|Column#60=Name:Size,Fixed:False,Metric:False,Visible:False,Sort:None,Position:71,Type:0|Column#61=Name:Manufacturer_Name,Fixed:False,Metric:False,Visible:False,Sort:None,Position:52,Type:0|Column#62=Name:DeviceName,Fixed:False,Metric:False,Visible:False,Sort:None,Position:35,Type:0|Column#63=Name:ComponentLink2Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:26,Type:0|Column#64=Name:Purchase-URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:66,Type:0|Column#65=Name:JLC part number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:44,Type:0|Column#66=Name:Circuit,Fixed:False,Metric:False,Visible:False,Sort:None,Position:23,Type:0|Column#67=Name:Terminal Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:74,Type:0|Column#68=Name:ComponentLink1URL,Fixed:False,Metric:False,Visible:False,Sort:None,Position:25,Type:0|Column#69=Name:Rated Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:67,Type:0|Column#70=Name:Package,Fixed:False,Metric:False,Visible:False,Sort:None,Position:61,Type:0|Column#71=Name:Value,Fixed:False,Metric:False,Visible:False,Sort:None,Position:78,Type:0|Column#72=Name:Capacitance,Fixed:False,Metric:False,Visible:False,Sort:None,Position:19,Type:0|Column#73=Name:LatestRevisionDate,Fixed:False,Metric:False,Visible:False,Sort:None,Position:45,Type:0|Column#74=Name:Contact Material,Fixed:False,Metric:False,Visible:False,Sort:None,Position:28,Type:0|Column#75=Name:Device Class,Fixed:False,Metric:False,Visible:False,Sort:None,Position:34,Type:0|Column#76=Name:Publisher,Fixed:False,Metric:False,Visible:False,Sort:None,Position:65,Type:0|Column#77=Name:ComponentLink1Description,Fixed:False,Metric:False,Visible:False,Sort:None,Position:24,Type:0|Column#78=Name:Continuous Current,Fixed:False,Metric:False,Visible:False,Sort:None,Position:30,Type:0|Column#79=Name:RefDes,Fixed:False,Metric:False,Visible:False,Sort:None,Position:69,Type:0|Column#80=Name:Voltage Rating,Fixed:False,Metric:False,Visible:False,Sort:None,Position:80,Type:0|Column#81=Name:Height,Fixed:False,Metric:False,Visible:False,Sort:None,Position:43,Type:0|Column#82=Name:Price,Fixed:False,Metric:False,Visible:False,Sort:None,Position:64,Type:0|Column#83=Name:Manufacturer Part Number,Fixed:False,Metric:False,Visible:False,Sort:None,Position:51,Type:0|DocumentPath=C:\Users\amsie\OneDrive\Documents\GitHub\mrover-electrical\boards\embedded-dev-26\embedded-dev-26.PcbDoc
 OutputType3=Test Points For Assembly
 OutputName3=Test Point Report
 OutputDocumentPath3=
@@ -447,22 +612,22 @@ Name=Fabrication Outputs
 Description=
 TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=Board Stack Report
-OutputName1=Report Board Stack
+OutputType1=CompositeDrill
+OutputName1=Composite Drill Drawing
 OutputDocumentPath1=
-OutputVariantName1=
+OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType2=CompositeDrill
-OutputName2=Composite Drill Drawing
+OutputType2=Drill
+OutputName2=Drill Drawing/Guides
 OutputDocumentPath2=
 OutputVariantName2=[No Variations]
 OutputDefault2=0
 PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType3=Drill
-OutputName3=Drill Drawing/Guides
+OutputType3=Board Stack Report
+OutputName3=Report Board Stack
 OutputDocumentPath3=
-OutputVariantName3=[No Variations]
+OutputVariantName3=
 OutputDefault3=0
 PageOptions3=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 OutputType4=Final
@@ -471,47 +636,51 @@ OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
 PageOptions4=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType5=Gerber
-OutputName5=Gerber Files
+OutputType5=Gerber X2
+OutputName5=Gerber X2 Files
 OutputDocumentPath5=
 OutputVariantName5=[No Variations]
 OutputDefault5=0
-OutputType6=Gerber X2
-OutputName6=Gerber X2 Files
+Configuration5_Name1=ForceUpdateSettings
+Configuration5_Item1=False
+Configuration5_Name2=OutputConfigurationParameter1
+Configuration5_Item2=BoardID=STDYQNOR|FileComment= |FileSubject=Autodetect|GenerateDRCRulesFile=False|GenerateReports=True|GerberUnit=Metric|IncludeUnconnectedMidLayerPads=True|MergePadAndRegion=False|MinusApertureTolerance=50|NumberOfDecimals=5|OptimizeChangeLocationCommands=True|OutputFormat=Single|PlotBackDrillingPairs=False|PlotBlindViasPairs=False|PlotBoardProfile=True|PlotBoardProfileFileName= |PlotCounterHolesPairs=False|PlotDrillDrawingPair0_Backdrill=False|PlotDrillDrawingPair0_Checked=True|PlotDrillDrawingPair0_DrillType=Regular|PlotDrillDrawingPair0_FileName= |PlotDrillDrawingPair0_HighLayer=Bottom Layer|PlotDrillDrawingPair0_LowLayer=Top Layer|PlotDrillDrawingPairs=False|PlotDrillGuidePair0_Backdrill=False|PlotDrillGuidePair0_Checked=True|PlotDrillGuidePair0_DrillType=Regular|PlotDrillGuidePair0_FileName= |PlotDrillGuidePair0_HighLayer=Bottom Layer|PlotDrillGuidePair0_LowLayer=Top Layer|PlotDrillGuidePairs=False|PlotMicroViasPairs=False|PlotNPTHPair0_Backdrill=False|PlotNPTHPair0_Checked=True|PlotNPTHPair0_DrillType=Regular|PlotNPTHPair0_FileName= |PlotNPTHPair0_HighLayer=Top Layer|PlotNPTHPair0_LowLayer=Bottom Layer|PlotNPTHPairs=False|PlotPTHPair0_Backdrill=False|PlotPTHPair0_Checked=True|PlotPTHPair0_DrillType=Regular|PlotPTHPair0_FileName= |PlotPTHPair0_HighLayer=Top Layer|PlotPTHPair0_LowLayer=Bottom Layer|PlotPTHPairs=False|PlotViaTypeDrillDrawingPairs=False|PlotViaTypeDrillGuidePairs=False|PlotViaTypeDrillPairs=False|PlotX2.Set=SerializeLayerHash.Version~2,ClassName~TPlotLayerStateArray,16777217~1,16777218~1,16777219~1,16842751~1,16973830~1,16973831~1,16973834~1,16973835~1,16973832~1,16973833~1,16908289~1,16908290~1,16908291~1,16908294~1,16908297~1,16908298~1,16908299~1,16908300~1,16908301~1,16908303~1,16908304~1,16908305~1,16908306~1,16908310~1,16908311~1,16973837~1,16973848~1,16973849~1|PlusApertureTolerance=50|Record=GerberX2View|Sorted=False|DocumentPath=C:\Users\amsie\OneDrive\Documents\GitHub\mrover-electrical\boards\embedded-dev-26\embedded-dev-26.PcbDoc
+OutputType6=ODB
+OutputName6=ODB++ Files
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
-OutputType7=IPC2581
-OutputName7=IPC-2581 Files
+OutputType7=Mask
+OutputName7=Solder/Paste Mask Prints
 OutputDocumentPath7=
 OutputVariantName7=[No Variations]
 OutputDefault7=0
-OutputType8=Mask
-OutputName8=Solder/Paste Mask Prints
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType8=NC Drill
+OutputName8=NC Drill Files
 OutputDocumentPath8=
-OutputVariantName8=[No Variations]
+OutputVariantName8=
 OutputDefault8=0
-PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType9=NC Drill
-OutputName9=NC Drill Files
+OutputType9=IPC2581
+OutputName9=IPC-2581 Files
 OutputDocumentPath9=
-OutputVariantName9=
+OutputVariantName9=[No Variations]
 OutputDefault9=0
-OutputType10=ODB
-OutputName10=ODB++ Files
+OutputType10=Plane
+OutputName10=Power-Plane Prints
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
-OutputType11=Plane
-OutputName11=Power-Plane Prints
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType11=Test Points
+OutputName11=Test Point Report
 OutputDocumentPath11=
-OutputVariantName11=[No Variations]
+OutputVariantName11=
 OutputDefault11=0
-PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
-OutputType12=Test Points
-OutputName12=Test Point Report
+OutputType12=Gerber
+OutputName12=Gerber Files
 OutputDocumentPath12=
-OutputVariantName12=
+OutputVariantName12=[No Variations]
 OutputDefault12=0
 
 [OutputGroup6]
@@ -525,6 +694,22 @@ OutputDocumentPath1=
 OutputVariantName1=[No Variations]
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+Configuration1_Name1=ColumnNameFormat
+Configuration1_Item1=CaptionAsName
+Configuration1_Name2=ForceUpdateSettings
+Configuration1_Item2=False
+Configuration1_Name3=General
+Configuration1_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
+Configuration1_Name4=GroupOrder
+Configuration1_Item4=
+Configuration1_Name5=VisibleOrder
+Configuration1_Item5=Line #=53|Comment=146|Description=100|Designator=77|Quantity=66|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116
+Configuration1_Name6=VisibleOrder_Base
+Configuration1_Item6=Line #=53|Comment=146|Description=100|Designator=77|Quantity=66|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116
+Configuration1_Name7=VisibleOrder_Consolidated
+Configuration1_Item7=Line #=100|Comment=100|Description=100|Designator=100|Quantity=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116
+Configuration1_Name8=VisibleOrder_Flat
+Configuration1_Item8=Line #=100|Comment=100|Description=100|Designator=100|Manufacturer 1=99|Manufacturer Part Number 1=166|Manufacturer Lifecycle 1=142|Supplier 1=72|Supplier Part Number 1=138|Supplier Unit Price 1=122|Supplier Subtotal 1=116
 OutputType2=BOM_ReportCompare
 OutputName2=BOM Compare
 OutputDocumentPath2=
