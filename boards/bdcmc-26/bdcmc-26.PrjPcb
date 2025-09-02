@@ -1106,11 +1106,13 @@ Net2=NetName=12V_HB_1|NetColor=$006E6EFF
 Net3=NetName=12V_HB_2|NetColor=$006E6EFF
 Net4=NetName=12V_Motor|NetColor=$006E6EFF
 Net5=NetName=3V3|NetColor=$000083FD
-Net6=NetName=GND|NetColor=clBlack
-Net7=NetName=HS_Gate_1|NetColor=$006EFF6E
-Net8=NetName=HS_Gate_2|NetColor=$006EFF6E
-Net9=NetName=LS_Gate_1|NetColor=$006EFF6E
-Net10=NetName=LS_Gate_2|NetColor=$006EFF6E
+Net6=NetName=5V|NetColor=clYellow
+Net7=NetName=GND|NetColor=clBlack
+Net8=NetName=HS_Gate_1|NetColor=$006EFF6E
+Net9=NetName=HS_Gate_2|NetColor=$006EFF6E
+Net10=NetName=LS_Gate_1|NetColor=$006EFF6E
+Net11=NetName=LS_Gate_2|NetColor=$006EFF6E
+Net12=NetName=VBAT|NetColor=$006724DA
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
