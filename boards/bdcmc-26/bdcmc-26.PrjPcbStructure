@@ -1,0 +1,4 @@
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Motor_Control.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Power_Regulation.SchDoc|SheetNumber=4

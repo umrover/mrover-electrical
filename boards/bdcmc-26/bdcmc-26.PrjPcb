@@ -117,6 +117,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXBZITJF
 
+[Document5]
+DocumentPath=Input_Power.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WPFMRMET
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1101,18 +1118,23 @@ UpdateToLatestRevision=1
 PartTypes=0
 
 [NetInfos]
-Net1=NetName=12V|NetColor=$006E6EFF
-Net2=NetName=12V_HB_1|NetColor=$006E6EFF
-Net3=NetName=12V_HB_2|NetColor=$006E6EFF
+Net1=NetName=12V|NetColor=$000083FD
+Net2=NetName=12V_HB_1|NetColor=$000083FD
+Net3=NetName=12V_HB_2|NetColor=$000083FD
 Net4=NetName=12V_Motor|NetColor=$006E6EFF
-Net5=NetName=3V3|NetColor=$000083FD
+Net5=NetName=3V3|NetColor=$00FF6EFF
 Net6=NetName=5V|NetColor=clYellow
-Net7=NetName=GND|NetColor=clBlack
-Net8=NetName=HS_Gate_1|NetColor=$006EFF6E
-Net9=NetName=HS_Gate_2|NetColor=$006EFF6E
-Net10=NetName=LS_Gate_1|NetColor=$006EFF6E
-Net11=NetName=LS_Gate_2|NetColor=$006EFF6E
-Net12=NetName=VBAT|NetColor=$006724DA
+Net7=NetName=7V|NetColor=$001AC5FF
+Net8=NetName=GND|NetColor=clBlack
+Net9=NetName=HS_Gate_1|NetColor=$006EFF6E
+Net10=NetName=HS_Gate_2|NetColor=$006EFF6E
+Net11=NetName=LS_Gate_1|NetColor=$006EFF6E
+Net12=NetName=LS_Gate_2|NetColor=$006EFF6E
+Net13=NetName=Motor_Dir_In_1|NetColor=$00FFFF6E
+Net14=NetName=Motor_Dir_In_2|NetColor=$00FF6E6E
+Net15=NetName=VBAT|NetColor=$006E6EFF
+Net16=NetName=VBAT_Fused|NetColor=$006E6EFF
+Net17=NetName=VBAT_LDOS|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
