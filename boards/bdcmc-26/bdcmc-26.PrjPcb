@@ -50,23 +50,6 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=MCU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=QIHWUXYB
-
-[Document2]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -83,7 +66,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KVNQJWQQ
 
-[Document3]
+[Document2]
 DocumentPath=Motor_Control.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -100,7 +83,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JGANUVLU
 
-[Document4]
+[Document3]
 DocumentPath=Power_Regulation.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,14 +100,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXBZITJF
 
-[Document5]
+[Document4]
 DocumentPath=Input_Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=4
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
@@ -133,6 +116,40 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WPFMRMET
+
+[Document5]
+DocumentPath=TLD.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=5
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QLLLZIPS
+
+[Document6]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=0
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=QIHWUXYB
 
 [Configuration1]
 Name=Sources
@@ -1128,13 +1145,21 @@ Net7=NetName=7V|NetColor=$001AC5FF
 Net8=NetName=GND|NetColor=clBlack
 Net9=NetName=HS_Gate_1|NetColor=$006EFF6E
 Net10=NetName=HS_Gate_2|NetColor=$006EFF6E
-Net11=NetName=LS_Gate_1|NetColor=$006EFF6E
-Net12=NetName=LS_Gate_2|NetColor=$006EFF6E
-Net13=NetName=Motor_Dir_In_1|NetColor=$00FFFF6E
-Net14=NetName=Motor_Dir_In_2|NetColor=$00FF6E6E
-Net15=NetName=VBAT|NetColor=$006E6EFF
-Net16=NetName=VBAT_Fused|NetColor=$006E6EFF
-Net17=NetName=VBAT_LDOS|NetColor=$006E6EFF
+Net11=NetName=LP_RX|NetColor=$00C7A956
+Net12=NetName=LP_TX|NetColor=$00C7A956
+Net13=NetName=LS_Gate_1|NetColor=$006EFF6E
+Net14=NetName=LS_Gate_2|NetColor=$006EFF6E
+Net15=NetName=Motor_Dir_In_1|NetColor=$00FFFF6E
+Net16=NetName=Motor_Dir_In_2|NetColor=$00FF6E6E
+Net17=NetName=NRST|NetColor=$00C7A956
+Net18=NetName=STLINK_RX|NetColor=$00C7A956
+Net19=NetName=STLINK_TX|NetColor=$00C7A956
+Net20=NetName=SWCLK|NetColor=$00C7A956
+Net21=NetName=SWDIO|NetColor=$00C7A956
+Net22=NetName=SWO|NetColor=$00C7A956
+Net23=NetName=VBAT|NetColor=$006E6EFF
+Net24=NetName=VBAT_Fused|NetColor=$006E6EFF
+Net25=NetName=VBAT_LDOS|NetColor=$006E6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
