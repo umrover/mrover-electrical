@@ -1,5 +1,6 @@
-Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Input_Power.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Motor_Control.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Power_Regulation.SchDoc|SheetNumber=4
+Record=TopLevelDocument|FileName=TLD.SchDoc|SheetNumber=1
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_CAN|SchDesignator=U_CAN|FileName=CAN.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=CAN.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_Input_Power|SchDesignator=U_Input_Power|FileName=Input_Power.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=Input_Power.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_MCU|SchDesignator=U_MCU|FileName=MCU.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_Motor_Control|SchDesignator=U_Motor_Control|FileName=Motor_Control.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=Motor_Control.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=TLD.SchDoc|Designator=U_Power_Regulation|SchDesignator=U_Power_Regulation|FileName=Power_Regulation.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=Power_Regulation.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
