@@ -168,6 +168,14 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SQAHAMRE
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for bdcmc-26\Design Rule Check - bdcmc.html
+DItemRevisionGUID=
+
+[DiffPairSuffix1]
+Positive=_H
+Negative=_L
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
