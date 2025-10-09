@@ -186,7 +186,7 @@ GenerateClassCluster=0
 DocumentUniqueId=ETCTGJML
 
 [Document9]
-DocumentPath=pdb26.SchDoc
+DocumentPath=Daughter_Cards.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -371,6 +371,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VLRIBZSN
+
+[Document20]
+DocumentPath=Motherboard.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=TKZEDBQU
 
 [Configuration1]
 Name=Sources
