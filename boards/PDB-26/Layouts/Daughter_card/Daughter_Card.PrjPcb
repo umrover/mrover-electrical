@@ -50,24 +50,7 @@ PrefsVaultGUID=
 PrefsRevisionGUID=
 
 [Document1]
-DocumentPath=..\..\boards\PDB-26\Layouts\Daughter_card\Daughter_Card.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=0
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SUSSEWTI
-
-[Document2]
-DocumentPath=..\..\altium-libraries\jlc-lib\JLC_25.PcbLib
+DocumentPath=Daughter_Card.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -81,10 +64,27 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SUSSEWTI
+
+[Document2]
+DocumentPath=Daughter_Card.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VMJCAGXW
 
 [Document3]
-DocumentPath=..\..\altium-libraries\jlc-lib\JLC_25.SchLib
+DocumentPath=..\..\..\..\altium-libraries\jlc-lib\JLC_25.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,7 +101,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document4]
-DocumentPath=..\..\altium-libraries\mrover-master-lib\MasterLib.PcbLib
+DocumentPath=..\..\..\..\altium-libraries\jlc-lib\JLC_25.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -115,10 +115,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=LSOWNXDV
+DocumentUniqueId=
 
 [Document5]
-DocumentPath=..\..\altium-libraries\mrover-master-lib\MasterLib.SchLib
+DocumentPath=..\..\..\..\altium-libraries\mrover-master-lib\MasterLib.PcbLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -132,10 +132,10 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=DJEOHKIL
+DocumentUniqueId=
 
 [Document6]
-DocumentPath=..\..\boards\PDB-26\Layouts\Daughter_card\Daughter_Card.PcbDoc
+DocumentPath=..\..\..\..\altium-libraries\mrover-master-lib\MasterLib.SchLib
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -149,7 +149,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VMJCAGXW
+DocumentUniqueId=
 
 [Configuration1]
 Name=Sources
