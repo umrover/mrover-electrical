@@ -1240,7 +1240,15 @@ PartTypes=0
 Net1=NetName=3V3|NetColor=clYellow
 Net2=NetName=5V|NetColor=$000083FD
 Net3=NetName=7V|NetColor=$008F88FF
-Net4=NetName=VBAT|NetColor=$00FF6EFF
+Net4=NetName=FB|NetColor=$00CA9C00
+Net5=NetName=NRST|NetColor=$00FF6E6E
+Net6=NetName=STLINK_RX|NetColor=$00FF6E6E
+Net7=NetName=STLINK_TX|NetColor=$00FF6E6E
+Net8=NetName=SWCLK|NetColor=$00FF6E6E
+Net9=NetName=SWDIO|NetColor=$00FF6E6E
+Net10=NetName=SWO|NetColor=$00FF6E6E
+Net11=NetName=VBAT|NetColor=$00FF6EFF
+Net12=NetName=VBAT_FUSED|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
