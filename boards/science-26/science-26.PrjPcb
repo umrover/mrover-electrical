@@ -220,7 +220,7 @@ GenerateClassCluster=0
 DocumentUniqueId=MMQUVDAM
 
 [Document11]
-DocumentPath=CO2_THP_Sensor.SchDoc
+DocumentPath=Headers.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
