@@ -200,7 +200,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=AWMJVZXA
 
 [Document10]
 DocumentPath=..\..\..\PCB_Project\Current_Sensing.SchDoc
@@ -217,26 +217,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LFNNCNRD
 
 [Document11]
-DocumentPath=..\..\..\PCB_Project\Daughter_Cards.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=
-
-[Document12]
 DocumentPath=..\..\..\PCB_Project\LDOs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -251,9 +234,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TVGKOYXZ
 
-[Document13]
+[Document12]
 DocumentPath=..\..\..\PCB_Project\MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -268,9 +251,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=SASILSWH
 
-[Document14]
+[Document13]
 DocumentPath=..\..\..\PCB_Project\Motherboard.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -285,9 +268,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TKZEDBQU
 
-[Document15]
+[Document14]
 DocumentPath=..\..\..\PCB_Project\Other_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -302,9 +285,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=TQTUMIVQ
 
-[Document16]
+[Document15]
 DocumentPath=..\..\..\PCB_Project\PGOODs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -319,7 +302,24 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IMOLFKCB
+
+[Document16]
+DocumentPath=..\..\..\PCB_Project\Daughter_Card_Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=XHFQSULE
 
 [Configuration1]
 Name=Sources

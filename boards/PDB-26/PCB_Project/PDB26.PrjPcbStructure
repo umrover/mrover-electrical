@@ -1,17 +1,16 @@
-Record=TopLevelDocument|FileName=Daughter_Cards.SchDoc|SheetNumber=1
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B1|SchDesignator=B1|FileName=24V_Buck.SchDoc|SheetNumber=2|SymbolType=Normal|RawFileName=24V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B2|SchDesignator=B2|FileName=24V_Buck_LA.SchDoc|SheetNumber=3|SymbolType=Normal|RawFileName=24V_Buck_LA.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B3|SchDesignator=B3|FileName=18V_Jetson.SchDoc|SheetNumber=4|SymbolType=Normal|RawFileName=18V_Jetson.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B5|SchDesignator=B5|FileName=5V_Buck.SchDoc|SheetNumber=8|SymbolType=Normal|RawFileName=5V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B6|SchDesignator=B6|FileName=3V3_Buck.SchDoc|SheetNumber=9|SymbolType=Normal|RawFileName=3V3_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B7|SchDesignator=B7|FileName=12V_Auton.SchDoc|SheetNumber=5|SymbolType=Normal|RawFileName=12V_Auton.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B8|SchDesignator=B8|FileName=12V_Buck_fans.SchDoc|SheetNumber=7|SymbolType=Normal|RawFileName=12V_Buck_fans.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B9|SchDesignator=B9|FileName=7V_Buck.SchDoc|SheetNumber=6|SymbolType=Normal|RawFileName=7V_Buck.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=SheetSymbol|SourceDocument=Daughter_Cards.SchDoc|Designator=B9|SchDesignator=B9|FileName=MCU.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=CAN_Transciever.SchDoc|SheetNumber=16
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=Current_Sensing.SchDoc|SheetNumber=14
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=Daughter_Card_Connectors.SchDoc|SheetNumber=12
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=LDOs.SchDoc|SheetNumber=15
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=Motherboard.SchDoc|SheetNumber=11
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=Other_Connectors.SchDoc|SheetNumber=13
-Record=NoMainPathDocument|SourceDocument=Daughter_Cards.SchDoc|FileName=PGOODs.SchDoc|SheetNumber=17
+Record=TopLevelDocument|FileName=Motherboard.SchDoc|SheetNumber=9
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B1|SchDesignator=B1|FileName=Daughter_Card_Connectors.SchDoc|SheetNumber=10|SymbolType=Normal|RawFileName=Daughter_Card_Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B2|SchDesignator=B2|FileName=Other_Connectors.SchDoc|SheetNumber=11|SymbolType=Normal|RawFileName=Other_Connectors.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B3|SchDesignator=B3|FileName=Current_Sensing.SchDoc|SheetNumber=12|SymbolType=Normal|RawFileName=Current_Sensing.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B4|SchDesignator=B4|FileName=LDOs.SchDoc|SheetNumber=13|SymbolType=Normal|RawFileName=LDOs.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B5|SchDesignator=B5|FileName=CAN_Transciever.SchDoc|SheetNumber=14|SymbolType=Normal|RawFileName=CAN_Transciever.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B6|SchDesignator=B6|FileName=MCU.SchDoc|SheetNumber=15|SymbolType=Normal|RawFileName=MCU.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=SheetSymbol|SourceDocument=Motherboard.SchDoc|Designator=B7|SchDesignator=B7|FileName=PGOODs.SchDoc|SheetNumber=16|SymbolType=Normal|RawFileName=PGOODs.SchDoc|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol|RevisionGUID= |ItemGUID= |VaultGUID= 
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=3V3_Buck.SchDoc|SheetNumber=8
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=5V_Buck.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=7V_Buck.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=12V_Auton.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=12V_Buck_fans.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=18V_Jetson.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=24V_Buck.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=Motherboard.SchDoc|FileName=24V_Buck_LA.SchDoc|SheetNumber=2
