@@ -1,19 +1,29 @@
 Protel Design System Design Rule Check
 PCB File : C:\Users\agast\Documents\MROVER 2025\mrover-electrical\boards\PDB-26\Layouts\Daughter_card\Daughter_Card.PcbDoc
-Date     : 10/30/2025
-Time     : 3:05:57 AM
+Date     : 11/5/2025
+Time     : 1:14:16 AM
 
 Processing Rule : Clearance Constraint (Gap=0.102mm) (All),(All)
-Rule Violations :0
+   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad J1-01(155.397mm,38.862mm) on Multi-Layer And Polygon Region (7 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad J1-02(151.435mm,38.862mm) on Multi-Layer And Polygon Region (0 hole(s)) Top Layer 
+   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad J2-01(160.376mm,109.093mm) on Multi-Layer And Polygon Region (7 hole(s)) Bottom Layer 
+   Violation between Clearance Constraint: (Collision < 0.102mm) Between Pad J2-02(164.338mm,109.093mm) on Multi-Layer And Polygon Region (0 hole(s)) Top Layer 
+Rule Violations :4
 
 Processing Rule : Clearance Constraint (Gap=0.127mm) (IsStitchingVia and InNet('GND')),((IsVia and (Not IsStitchingVia)) Or IsPad)
 Rule Violations :0
 
 Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
-Rule Violations :0
+   Violation between Short-Circuit Constraint: Between Pad J1-01(155.397mm,38.862mm) on Multi-Layer And Polygon Region (7 hole(s)) Bottom Layer Location : [X = 155.397mm][Y = 38.862mm]
+   Violation between Short-Circuit Constraint: Between Pad J1-02(151.435mm,38.862mm) on Multi-Layer And Polygon Region (0 hole(s)) Top Layer Location : [X = 151.435mm][Y = 38.862mm]
+   Violation between Short-Circuit Constraint: Between Pad J2-01(160.376mm,109.093mm) on Multi-Layer And Polygon Region (7 hole(s)) Bottom Layer Location : [X = 160.376mm][Y = 109.093mm]
+   Violation between Short-Circuit Constraint: Between Pad J2-02(164.338mm,109.093mm) on Multi-Layer And Polygon Region (0 hole(s)) Top Layer Location : [X = 164.338mm][Y = 109.093mm]
+Rule Violations :4
 
 Processing Rule : Un-Routed Net Constraint ( (All) )
-Rule Violations :0
+   Violation between Un-Routed Net Constraint: Net VBAT Between Pad F1-1(151.994mm,45.085mm) on Top Layer And Pad J1-01(155.397mm,38.862mm) on Multi-Layer 
+   Violation between Un-Routed Net Constraint: Net 24V_OUT_FUSED Between Pad J2-01(160.376mm,109.093mm) on Multi-Layer And Pad F2-2(164.732mm,102.489mm) on Top Layer 
+Rule Violations :2
 
 Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
 Rule Violations :0
@@ -43,7 +53,9 @@ Processing Rule : Minimum Solder Mask Sliver (Gap=0mm) (All),(All)
 Rule Violations :0
 
 Processing Rule : Silk To Solder Mask (Clearance=0.102mm) (IsPad),(All)
-Rule Violations :0
+   Violation between Silk To Solder Mask Clearance Constraint: (0.048mm < 0.102mm) Between Pad C10-2(156.789mm,49.53mm) on Top Layer And Text "F1" (157.729mm,50.45mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0.048mm]
+   Violation between Silk To Solder Mask Clearance Constraint: (Collision < 0.102mm) Between Pad C2-2(156.375mm,53.34mm) on Top Layer And Text "C18" (156.992mm,53.602mm) on Top Overlay [Top Overlay] to [Top Solder] clearance [0mm]
+Rule Violations :2
 
 Processing Rule : Silk to Silk (Clearance=0mm) (All),(All)
 Rule Violations :0
@@ -52,12 +64,13 @@ Processing Rule : Net Antennae (Tolerance=0mm) (All)
 Rule Violations :0
 
 Processing Rule : Board Clearance Constraint (Gap=0mm) (All)
-Rule Violations :0
+   Violation between Board Outline Clearance(Outline Edge): (0.056mm < 0.2mm) Between Board Edge And Text "R3" (148.392mm,77.986mm) on Top Overlay 
+Rule Violations :1
 
 Processing Rule : Height Constraint (Min=0mm) (Max=1816.048mm) (Prefered=12.7mm) (All)
 Rule Violations :0
 
 
-Violations Detected : 0
+Violations Detected : 13
 Waived Violations : 0
 Time Elapsed        : 00:00:00
