@@ -98,7 +98,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MUWQWPHF
 
 [Document4]
 DocumentPath=..\..\..\..\altium-libraries\jlc-lib\JLC_25.SchLib
@@ -132,7 +132,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LSOWNXDV
 
 [Document6]
 DocumentPath=..\..\..\..\altium-libraries\mrover-master-lib\MasterLib.SchLib
@@ -149,7 +149,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DJEOHKIL
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Daughter_Card\Design Rule Check - Daughter_Card.html
