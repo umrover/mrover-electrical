@@ -1295,6 +1295,7 @@ Net22=NetName=SWO|NetColor=$00FF6E6E
 Net23=NetName=UV_OUT|NetColor=$00BE35AB
 Net24=NetName=VBAT|NetColor=$00FF6EFF
 Net25=NetName=VBAT_FUSED|NetColor=$00FF6EFF
+Net26=NetName=VBAT_UNFUSED|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
