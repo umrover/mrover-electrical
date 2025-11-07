@@ -81,7 +81,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=ETCTGJML
 
 [Document3]
 DocumentPath=..\..\..\..\..\altium-libraries\mrover-master-lib\MasterLib.PcbLib
@@ -98,7 +98,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LSOWNXDV
 
 [Document4]
 DocumentPath=..\..\..\..\..\altium-libraries\mrover-master-lib\MasterLib.SchLib
@@ -115,7 +115,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=DJEOHKIL
 
 [Document5]
 DocumentPath=..\..\..\..\..\altium-libraries\misc-connectors-lib\Miscellaneous Connectors\Miscellaneous Connectors.PcbLib
@@ -132,7 +132,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=IIKKYAIM
 
 [Document6]
 DocumentPath=..\..\..\..\..\altium-libraries\misc-connectors-lib\Miscellaneous Connectors\Miscellaneous Connectors.SchLib
