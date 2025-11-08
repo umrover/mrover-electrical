@@ -166,7 +166,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RUGJWPIM
 
 [Document8]
 DocumentPath=..\..\..\..\..\altium-libraries\molex-microfit-lib\Molex Microfit.SCHLIB
