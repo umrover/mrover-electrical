@@ -1294,20 +1294,21 @@ Net9=NetName=FB|NetColor=$00CA9C00
 Net10=NetName=FDCAN_RXD|NetColor=$0073ECE7
 Net11=NetName=FDCAN_STB|NetColor=$0073ECE7
 Net12=NetName=FDCAN_TXD|NetColor=$0073ECE7
-Net13=NetName=HHEAT|NetColor=$007F0311
-Net14=NetName=HOUT|NetColor=$007F0311
-Net15=NetName=NRST|NetColor=$00FF6E6E
-Net16=NetName=SCL|NetColor=$00FFFF6E
-Net17=NetName=SDA|NetColor=$00FFFF6E
-Net18=NetName=STLINK_RX|NetColor=$00FF6E6E
-Net19=NetName=STLINK_TX|NetColor=$00FF6E6E
-Net20=NetName=SWCLK|NetColor=$00FF6E6E
-Net21=NetName=SWDIO|NetColor=$00FF6E6E
-Net22=NetName=SWO|NetColor=$00FF6E6E
-Net23=NetName=UV_OUT|NetColor=$00BE35AB
-Net24=NetName=VBAT|NetColor=$00FF6EFF
-Net25=NetName=VBAT_FUSED|NetColor=$00FF6EFF
-Net26=NetName=VBAT_UNFUSED|NetColor=$00FF6EFF
+Net13=NetName=GND|NetColor=clBlack
+Net14=NetName=HHEAT|NetColor=$007F0311
+Net15=NetName=HOUT|NetColor=$007F0311
+Net16=NetName=NRST|NetColor=$00FF6E6E
+Net17=NetName=SCL|NetColor=$00FFFF6E
+Net18=NetName=SDA|NetColor=$00FFFF6E
+Net19=NetName=STLINK_RX|NetColor=$00FF6E6E
+Net20=NetName=STLINK_TX|NetColor=$00FF6E6E
+Net21=NetName=SWCLK|NetColor=$00FF6E6E
+Net22=NetName=SWDIO|NetColor=$00FF6E6E
+Net23=NetName=SWO|NetColor=$00FF6E6E
+Net24=NetName=UV_OUT|NetColor=$00BE35AB
+Net25=NetName=VBAT|NetColor=$00FF6EFF
+Net26=NetName=VBAT_FUSED|NetColor=$00FF6EFF
+Net27=NetName=VBAT_UNFUSED|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
