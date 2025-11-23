@@ -1213,16 +1213,10 @@ UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
 ComponentLibraryIdentifier0=JLC_25.IntLib
-ComponentDesignItemID0=CONN-4POS-0001
-ComponentSymbolReference0=CONN-4POS-0001
-ComponentUpdate0=0
+ComponentDesignItemID0=NMOS-200MA-0001
+ComponentSymbolReference0=NMOS-200MA-0001
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=JLC_25.IntLib
-ComponentDesignItemID1=RES-75-0001
-ComponentSymbolReference1=RES-75-0001
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1244,36 +1238,19 @@ ParameterName2=ComponentLink1Description
 ParameterUpdate2=1
 ParameterName3=ComponentLink1URL
 ParameterUpdate3=1
-ParameterName4=Description
+ParameterName4=Continuous Current
 ParameterUpdate4=1
-ParameterName5=Digi-Key_Part_Number
+ParameterName5=Description
 ParameterUpdate5=1
-ParameterName6=Digi-Key_Purchase_URL
+ParameterName6=Library Reference
 ParameterUpdate6=1
-ParameterName7=Library Reference
+ParameterName7=Voltage
 ParameterUpdate7=1
-ParameterName8=MF
-ParameterUpdate8=1
-ParameterName9=MP
-ParameterUpdate9=1
-ParameterName10=Package
-ParameterUpdate10=1
-ParameterName11=Power
-ParameterUpdate11=1
-ParameterName12=Resistance
-ParameterUpdate12=1
-ParameterName13=SnapEDA_Link
-ParameterUpdate13=1
-ParameterName14=Value
-ParameterUpdate14=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=CONN-4POS-0001
+ModelName0=IC-SOT23-3
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=RESC1508X50N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -1298,17 +1275,18 @@ Net13=NetName=GND|NetColor=clBlack
 Net14=NetName=HHEAT|NetColor=$007F0311
 Net15=NetName=HOUT|NetColor=$007F0311
 Net16=NetName=NRST|NetColor=$00FF6E6E
-Net17=NetName=SCL|NetColor=$00FFFF6E
-Net18=NetName=SDA|NetColor=$00FFFF6E
-Net19=NetName=STLINK_RX|NetColor=$00FF6E6E
-Net20=NetName=STLINK_TX|NetColor=$00FF6E6E
-Net21=NetName=SWCLK|NetColor=$00FF6E6E
-Net22=NetName=SWDIO|NetColor=$00FF6E6E
-Net23=NetName=SWO|NetColor=$00FF6E6E
-Net24=NetName=UV_OUT|NetColor=$00BE35AB
-Net25=NetName=VBAT|NetColor=$00FF6EFF
-Net26=NetName=VBAT_FUSED|NetColor=$00FF6EFF
-Net27=NetName=VBAT_UNFUSED|NetColor=$00FF6EFF
+Net17=NetName=PGOOD+|NetColor=$008E0033
+Net18=NetName=SCL|NetColor=$00FFFF6E
+Net19=NetName=SDA|NetColor=$00FFFF6E
+Net20=NetName=STLINK_RX|NetColor=$00FF6E6E
+Net21=NetName=STLINK_TX|NetColor=$00FF6E6E
+Net22=NetName=SWCLK|NetColor=$00FF6E6E
+Net23=NetName=SWDIO|NetColor=$00FF6E6E
+Net24=NetName=SWO|NetColor=$00FF6E6E
+Net25=NetName=UV_OUT|NetColor=$00BE35AB
+Net26=NetName=VBAT|NetColor=$00FF6EFF
+Net27=NetName=VBAT_FUSED|NetColor=$00FF6EFF
+Net28=NetName=VBAT_UNFUSED|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
