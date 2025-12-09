@@ -236,6 +236,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TFAUMHBF
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for science-26\Design Rule Check - science-26.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
