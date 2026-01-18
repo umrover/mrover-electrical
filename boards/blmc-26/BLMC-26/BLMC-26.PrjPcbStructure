@@ -1,3 +1,5 @@
-Record=TopLevelDocument|FileName=Driver.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Driver.SchDoc|FileName=MCU_CAN_Connectors.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Driver.SchDoc|FileName=Power.SchDoc|SheetNumber=3
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Connectors.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Driver.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Power.SchDoc|SheetNumber=4
