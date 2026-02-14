@@ -1,7 +1,5 @@
-Record=TopLevelDocument|FileName=7V_Buck_LDOs.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=12V_Buck.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=CAN.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Connectors.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Driver.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Power.SchDoc|SheetNumber=4
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Connectors.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Driver.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Power.SchDoc|SheetNumber=4
