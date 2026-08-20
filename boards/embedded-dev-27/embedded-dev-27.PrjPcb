@@ -1095,6 +1095,7 @@ PartTypes=0
 
 [NetInfos]
 Net1=NetName=3V3|NetColor=clFuchsia
+Net2=NetName=5V|NetColor=clYellow
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
