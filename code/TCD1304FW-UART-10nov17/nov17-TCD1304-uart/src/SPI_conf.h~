@@ -1,5 +1,0 @@
-void SPI_Config(void);
-
-extern __IO uint16_t aTxBuffer[];
-extern __IO uint8_t aRxBuffer[];
-
