@@ -66,6 +66,40 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PZLWCJQP
 
+[Document2]
+DocumentPath=Motor Control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=GOYRZOED
+
+[Document3]
+DocumentPath=Voltage Regulation.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=MEALMRPQ
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1075,6 +1109,13 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3V3|NetColor=clFuchsia
+Net2=NetName=5V|NetColor=clYellow
+Net3=NetName=GND|NetColor=clBlack
+Net4=NetName=VBAT|NetColor=$000099FF
+Net5=NetName=VBAT_FUSED|NetColor=$000099FF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
