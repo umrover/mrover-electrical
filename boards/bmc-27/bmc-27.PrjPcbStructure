@@ -1,3 +1,5 @@
-Record=TopLevelDocument|FileName=Input Power.SchDoc|SheetNumber=1
-Record=NoMainPathDocument|SourceDocument=Input Power.SchDoc|FileName=Motor Control.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=Input Power.SchDoc|FileName=Voltage Regulation.SchDoc|SheetNumber=3
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Input Power.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Motor Control.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Voltage Regulation.SchDoc|SheetNumber=3
