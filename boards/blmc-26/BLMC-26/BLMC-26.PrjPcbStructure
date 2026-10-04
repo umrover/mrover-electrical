@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Record=TopLevelDocument|FileName=7V_Buck_LDOs.SchDoc|SheetNumber=4
 Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=CAN.SchDoc|SheetNumber=6
 Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Connectors.SchDoc|SheetNumber=8
@@ -6,3 +7,12 @@ Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Encoder.Sc
 Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=FETs.SchDoc|SheetNumber=3
 Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=LDOs.SchDoc|SheetNumber=5
 Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
+=======
+Record=TopLevelDocument|FileName=7V_Buck_LDOs.SchDoc|SheetNumber=3
+Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=CAN.SchDoc|SheetNumber=5
+Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Connectors.SchDoc|SheetNumber=7
+Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Driver.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=Encoder.SchDoc|SheetNumber=6
+Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=LDOs.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=7V_Buck_LDOs.SchDoc|FileName=MCU.SchDoc|SheetNumber=2
+>>>>>>> c740d736e878d23313b4576b5feccef61e430475
