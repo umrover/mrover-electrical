@@ -84,7 +84,7 @@ GenerateClassCluster=0
 DocumentUniqueId=GOYRZOED
 
 [Document3]
-DocumentPath=Voltage Regulation.SchDoc
+DocumentPath=12V Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -101,6 +101,40 @@ GenerateClassCluster=0
 DocumentUniqueId=MEALMRPQ
 
 [Document4]
+DocumentPath=7V Buck.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=IPRRHJZW
+
+[Document5]
+DocumentPath=LDOs.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LHLAXBHD
+
+[Document6]
 DocumentPath=MCU.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -117,7 +151,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AUQYXUYS
 
-[Document5]
+[Document7]
 DocumentPath=CAN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -134,7 +168,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=IRZJTFSY
 
-[Document6]
+[Document8]
 DocumentPath=bmc-27.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -1206,7 +1240,9 @@ Net2=NetName=5V|NetColor=clYellow
 Net3=NetName=GND|NetColor=clBlack
 Net4=NetName=VBAT|NetColor=$000099FF
 Net5=NetName=VBAT_FUSED|NetColor=$000099FF
-Net6=NetName=VDD|NetColor=clFuchsia
+Net6=NetName=VBAT_FUSED_12|NetColor=$00A07BC2
+Net7=NetName=VBAT_FUSED_7|NetColor=$00A07BC2
+Net8=NetName=VDD|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
