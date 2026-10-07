@@ -70,23 +70,6 @@ GenerateClassCluster=0
 DocumentUniqueId=PUTKHQJY
 
 [Document2]
-DocumentPath=MCU.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=SMIWHXSD
-
-[Document3]
 DocumentPath=FETs.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -103,8 +86,25 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NRGCHQWF
 
+[Document3]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=SMIWHXSD
+
 [Document4]
-DocumentPath=7V_Buck_LDOs.SchDoc
+DocumentPath=5V_Buck.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -1274,6 +1274,14 @@ SelectedOnly=0
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=3V3_LDO|NetColor=$000099FF
+Net2=NetName=MOTOR_A|NetColor=clYellow
+Net3=NetName=NetQ1_1|NetColor=clYellow
+Net4=NetName=NetU1_7|NetColor=clYellow
+Net5=NetName=VBAT|NetColor=$000099FF
+Net6=NetName=VBATT_FUSED|NetColor=clRed
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
