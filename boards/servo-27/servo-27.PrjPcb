@@ -66,6 +66,57 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BNJXFUAX
 
+[Document2]
+DocumentPath=CAN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=CZYIYQLG
+
+[Document3]
+DocumentPath=MCU.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZGYGJVKX
+
+[Document4]
+DocumentPath=Headers.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=PQMTZPOF
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -186,6 +237,106 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=CadnetixNetlist
+OutputName22=Cadnetix Netlist
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=CalayNetlist
+OutputName23=Calay Netlist
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=EDIF
+OutputName24=EDIF for PCB
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
+OutputType25=EESofNetlist
+OutputName25=EESof Netlist
+OutputDocumentPath25=
+OutputVariantName25=
+OutputDefault25=0
+OutputType26=IntergraphNetlist
+OutputName26=Intergraph Netlist
+OutputDocumentPath26=
+OutputVariantName26=
+OutputDefault26=0
+OutputType27=MentorBoardStationNetlist
+OutputName27=Mentor BoardStation Netlist
+OutputDocumentPath27=
+OutputVariantName27=
+OutputDefault27=0
+OutputType28=MultiWire
+OutputName28=MultiWire
+OutputDocumentPath28=
+OutputVariantName28=
+OutputDefault28=0
+OutputType29=OrCadPCB2Netlist
+OutputName29=Orcad/PCB2 Netlist
+OutputDocumentPath29=
+OutputVariantName29=
+OutputDefault29=0
+OutputType30=PADSNetlist
+OutputName30=PADS ASCII Netlist
+OutputDocumentPath30=
+OutputVariantName30=
+OutputDefault30=0
+OutputType31=Pcad
+OutputName31=Pcad for PCB
+OutputDocumentPath31=
+OutputVariantName31=
+OutputDefault31=0
+OutputType32=PCADNetlist
+OutputName32=PCAD Netlist
+OutputDocumentPath32=
+OutputVariantName32=
+OutputDefault32=0
+OutputType33=PCADnltNetlist
+OutputName33=PCADnlt Netlist
+OutputDocumentPath33=
+OutputVariantName33=
+OutputDefault33=0
+OutputType34=Protel2Netlist
+OutputName34=Protel2 Netlist
+OutputDocumentPath34=
+OutputVariantName34=
+OutputDefault34=0
+OutputType35=ProtelNetlist
+OutputName35=Protel
+OutputDocumentPath35=
+OutputVariantName35=
+OutputDefault35=0
+OutputType36=RacalNetlist
+OutputName36=Racal Netlist
+OutputDocumentPath36=
+OutputVariantName36=
+OutputDefault36=0
+OutputType37=RINFNetlist
+OutputName37=RINF Netlist
+OutputDocumentPath37=
+OutputVariantName37=
+OutputDefault37=0
+OutputType38=SciCardsNetlist
+OutputName38=SciCards Netlist
+OutputDocumentPath38=
+OutputVariantName38=
+OutputDefault38=0
+OutputType39=TangoNetlist
+OutputName39=Tango Netlist
+OutputDocumentPath39=
+OutputVariantName39=
+OutputDefault39=0
+OutputType40=TelesisNetlist
+OutputName40=Telesis Netlist
+OutputDocumentPath40=
+OutputVariantName40=
+OutputDefault40=0
+OutputType41=WireListNetlist
+OutputName41=WireList Netlist
+OutputDocumentPath41=
+OutputVariantName41=
+OutputDefault41=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -281,6 +432,66 @@ OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
 PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType14=Composite
+OutputName14=Composite Drawing
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType15=Harness Layout Drawing Print
+OutputName15=Harness Layout Drawing Prints
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType16=Harness Wiring Diagram Print
+OutputName16=Harness Wiring Diagram Prints
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType17=PCB 3D Print
+OutputName17=PCB 3D Print
+OutputDocumentPath17=
+OutputVariantName17=[No Variations]
+OutputDefault17=0
+PageOptions17=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType18=PCB 3D Video
+OutputName18=PCB 3D Video
+OutputDocumentPath18=
+OutputVariantName18=[No Variations]
+OutputDefault18=0
+PageOptions18=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType19=PCB Print
+OutputName19=PCB Prints
+OutputDocumentPath19=
+OutputVariantName19=[No Variations]
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType20=PCBLIB Print
+OutputName20=PCBLIB Prints
+OutputDocumentPath20=
+OutputVariantName20=[No Variations]
+OutputDefault20=0
+PageOptions20=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType21=Report Print
+OutputName21=Report Prints
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+PageOptions21=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType22=Schematic Print
+OutputName22=Schematic Prints
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType23=SimView Print
+OutputName23=SimView Prints
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+PageOptions23=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup4]
 Name=Assembly Outputs
@@ -308,6 +519,27 @@ OutputName4=Wire Bonding Table Report
 OutputDocumentPath4=
 OutputVariantName4=[No Variations]
 OutputDefault4=0
+OutputType5=Assembly
+OutputName5=Assembly Drawings
+OutputDocumentPath5=
+OutputVariantName5=[No Variations]
+OutputDefault5=0
+PageOptions5=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType6=Pick Place
+OutputName6=Generates pick and place files
+OutputDocumentPath6=
+OutputVariantName6=[No Variations]
+OutputDefault6=0
+OutputType7=Test Points For Assembly
+OutputName7=Test Point Report
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+OutputType8=Wire Bonding Table
+OutputName8=Wire Bonding Table Report
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
 
 [OutputGroup5]
 Name=Fabrication Outputs
@@ -380,6 +612,67 @@ OutputName12=Test Point Report
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=Board Stack Report
+OutputName13=Report Board Stack
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType14=CompositeDrill
+OutputName14=Composite Drill Drawing
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+PageOptions14=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType15=Drill
+OutputName15=Drill Drawing/Guides
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType16=Final
+OutputName16=Final Artwork Prints
+OutputDocumentPath16=
+OutputVariantName16=[No Variations]
+OutputDefault16=0
+PageOptions16=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType17=Gerber
+OutputName17=Gerber Files
+OutputDocumentPath17=
+OutputVariantName17=[No Variations]
+OutputDefault17=0
+OutputType18=Gerber X2
+OutputName18=Gerber X2 Files
+OutputDocumentPath18=
+OutputVariantName18=[No Variations]
+OutputDefault18=0
+OutputType19=Mask
+OutputName19=Solder/Paste Mask Prints
+OutputDocumentPath19=
+OutputVariantName19=[No Variations]
+OutputDefault19=0
+PageOptions19=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType20=NC Drill
+OutputName20=NC Drill Files
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=ODB
+OutputName21=ODB++ Files
+OutputDocumentPath21=
+OutputVariantName21=[No Variations]
+OutputDefault21=0
+OutputType22=Plane
+OutputName22=Power-Plane Prints
+OutputDocumentPath22=
+OutputVariantName22=[No Variations]
+OutputDefault22=0
+PageOptions22=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType23=Test Points
+OutputName23=Test Point Report
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup6]
 Name=Report Outputs
@@ -440,6 +733,54 @@ OutputName10=Report Single Pin Nets
 OutputDocumentPath10=
 OutputVariantName10=[No Variations]
 OutputDefault10=0
+OutputType11=BOM_PartType
+OutputName11=Bill of Materials
+OutputDocumentPath11=
+OutputVariantName11=[No Variations]
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=BOM_ReportCompare
+OutputName12=BOM Compare
+OutputDocumentPath12=
+OutputVariantName12=[No Variations]
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType13=BOM_ReportManufacturing
+OutputName13=Manufacturing Data
+OutputDocumentPath13=
+OutputVariantName13=[No Variations]
+OutputDefault13=0
+OutputType14=ComponentCrossReference
+OutputName14=Component Cross Reference Report
+OutputDocumentPath14=
+OutputVariantName14=[No Variations]
+OutputDefault14=0
+OutputType15=Export Comments
+OutputName15=Export Comments
+OutputDocumentPath15=
+OutputVariantName15=[No Variations]
+OutputDefault15=0
+PageOptions15=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType16=ReportHierarchy
+OutputName16=Report Project Hierarchy
+OutputDocumentPath16=
+OutputVariantName16=[No Variations]
+OutputDefault16=0
+OutputType17=Script
+OutputName17=Script Output
+OutputDocumentPath17=
+OutputVariantName17=[No Variations]
+OutputDefault17=0
+OutputType18=SimpleBOM
+OutputName18=Simple BOM
+OutputDocumentPath18=
+OutputVariantName18=[No Variations]
+OutputDefault18=0
+OutputType19=SinglePinNetReporter
+OutputName19=Report Single Pin Nets
+OutputDocumentPath19=
+OutputVariantName19=[No Variations]
+OutputDefault19=0
 
 [OutputGroup7]
 Name=Other Outputs
@@ -452,6 +793,12 @@ OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
 PageOptions1=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType2=Text Print
+OutputName2=Text Print
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+PageOptions2=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
 
 [OutputGroup8]
 Name=Validation Outputs
@@ -496,6 +843,44 @@ OutputName7=Footprint Comparison Report
 OutputDocumentPath7=
 OutputVariantName7=
 OutputDefault7=0
+OutputType8=BOM_Violations
+OutputName8=BOM Checks Report
+OutputDocumentPath8=
+OutputVariantName8=
+OutputDefault8=0
+OutputType9=Component states check
+OutputName9=Server's components states check
+OutputDocumentPath9=
+OutputVariantName9=
+OutputDefault9=0
+OutputType10=Configuration compliance
+OutputName10=Environment configuration compliance check
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=Design Rules Check
+OutputName11=Design Rules Check
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
+PageOptions11=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType12=Differences Report
+OutputName12=Differences Report
+OutputDocumentPath12=
+OutputVariantName12=
+OutputDefault12=0
+PageOptions12=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType13=Electrical Rules Check
+OutputName13=Electrical Rules Check
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+PageOptions13=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=Letter|PaperIndex=1
+OutputType14=Footprint Comparison Report
+OutputName14=Footprint Comparison Report
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -562,6 +947,66 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
+OutputType13=AnsysEDB
+OutputName13=Ansys EDB
+OutputDocumentPath13=
+OutputVariantName13=
+OutputDefault13=0
+OutputType14=AutoCAD dwg/dxf PCB
+OutputName14=AutoCAD dwg/dxf File PCB
+OutputDocumentPath14=
+OutputVariantName14=
+OutputDefault14=0
+OutputType15=AutoCAD dwg/dxf Schematic
+OutputName15=AutoCAD dwg/dxf File Schematic
+OutputDocumentPath15=
+OutputVariantName15=
+OutputDefault15=0
+OutputType16=ExportIDF
+OutputName16=Export IDF
+OutputDocumentPath16=
+OutputVariantName16=
+OutputDefault16=0
+OutputType17=ExportPARASOLID
+OutputName17=Export PARASOLID
+OutputDocumentPath17=
+OutputVariantName17=[No Variations]
+OutputDefault17=0
+OutputType18=ExportSTEP
+OutputName18=Export STEP
+OutputDocumentPath18=
+OutputVariantName18=[No Variations]
+OutputDefault18=0
+OutputType19=ExportVRML
+OutputName19=Export VRML
+OutputDocumentPath19=
+OutputVariantName19=[No Variations]
+OutputDefault19=0
+OutputType20=MBAExportPARASOLID
+OutputName20=Export PARASOLID
+OutputDocumentPath20=
+OutputVariantName20=
+OutputDefault20=0
+OutputType21=MBAExportSTEP
+OutputName21=Export STEP
+OutputDocumentPath21=
+OutputVariantName21=
+OutputDefault21=0
+OutputType22=Save As/Export PCB
+OutputName22=Save As/Export PCB
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=Save As/Export Schematic
+OutputName23=Save As/Export Schematic
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
+OutputType24=Specctra Design PCB
+OutputName24=Specctra Design PCB
+OutputDocumentPath24=
+OutputVariantName24=
+OutputDefault24=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -573,6 +1018,11 @@ OutputName1=Copy Files
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=Copy Files
+OutputName2=Copy Files
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
 
 [Modification Levels]
 Type1=1
