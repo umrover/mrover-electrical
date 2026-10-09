@@ -1,1 +1,4 @@
-Record=TopLevelDocument|FileName=Input Power.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=CAN.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Headers.SchDoc|SheetNumber=4
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=Input Power.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=CAN.SchDoc|FileName=MCU.SchDoc|SheetNumber=3
