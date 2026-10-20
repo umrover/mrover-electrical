@@ -15,7 +15,7 @@ LifeCycleDefinitionGUID=
 RevisionNamingSchemeGUID=
 
 [OutputGroup1]
-Name=Job Group
+Name=
 Description=
 TargetOutputMedium=PDF
 VariantName=[No Variations]
@@ -92,7 +92,7 @@ PDFACompliance2=Disabled
 PDFVersion2=Default
 OutputFilePath3=
 ReleaseManaged3=1
-OutputBasePath3=Project Outputs for bmc-27
+OutputBasePath3=
 OutputPathMedia3=
 OutputPathMediaValue3=
 OutputPathOutputer3=[Output Type]
@@ -105,7 +105,7 @@ OutputFileNameSpecial3=
 OpenOutput3=1
 OutputFilePath4=
 ReleaseManaged4=1
-OutputBasePath4=Project Outputs for bmc-27
+OutputBasePath4=
 OutputPathMedia4=
 OutputPathMediaValue4=
 OutputPathOutputer4=[Output Type]
@@ -156,4 +156,3 @@ OpenIPCOutput3=0
 EnableReload3=0
 RelativeOutputPath4=
 OpenOutputs4=1
-
