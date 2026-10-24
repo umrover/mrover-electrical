@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PQMTZPOF
 
 [Document5]
-DocumentPath=PCB1.PcbDoc
+DocumentPath=ServoPCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
