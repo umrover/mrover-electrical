@@ -185,6 +185,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document9]
+DocumentPath=PCB1.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JIMNHPEI
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1237,12 +1254,11 @@ PartTypes=0
 [NetInfos]
 Net1=NetName=3V3|NetColor=clFuchsia
 Net2=NetName=5V|NetColor=clYellow
-Net3=NetName=GND|NetColor=clBlack
-Net4=NetName=VBAT|NetColor=$000099FF
-Net5=NetName=VBAT_FUSED|NetColor=$000099FF
-Net6=NetName=VBAT_FUSED_12|NetColor=$00A07BC2
-Net7=NetName=VBAT_FUSED_7|NetColor=$00A07BC2
-Net8=NetName=VDD|NetColor=clFuchsia
+Net3=NetName=VBAT|NetColor=$000099FF
+Net4=NetName=VBAT_FUSED|NetColor=$000099FF
+Net5=NetName=VBAT_FUSED_12|NetColor=$00A07BC2
+Net6=NetName=VBAT_FUSED_7|NetColor=$00A07BC2
+Net7=NetName=VDD|NetColor=clFuchsia
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
