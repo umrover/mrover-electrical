@@ -1,8 +1,0 @@
-void TIM_3_4_Config(void);
-void TIM_2_5_Config(expset *exposure);
-
-typedef struct _expset expset;
-struct _expset{
-	uint32_t ICG_period;
-	uint32_t SH_period;
-};
