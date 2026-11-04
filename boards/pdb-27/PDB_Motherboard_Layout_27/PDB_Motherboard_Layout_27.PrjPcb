@@ -132,7 +132,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=MUWQWPHF
 
 [Document6]
 DocumentPath=..\..\..\altium-libraries\misc-connectors-lib\Miscellaneous Connectors\Miscellaneous Connectors.PcbLib
@@ -149,7 +149,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=KMVTAIPV
 
 [Document7]
 DocumentPath=..\..\..\altium-libraries\misc-connectors-lib\Miscellaneous Connectors\Miscellaneous Connectors.SchLib
@@ -183,7 +183,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=RUGJWPIM
 
 [Document9]
 DocumentPath=..\..\..\altium-libraries\molex-microfit-lib\Molex Microfit.SCHLIB
@@ -217,7 +217,7 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=LSOWNXDV
 
 [Document11]
 DocumentPath=..\..\..\altium-libraries\mrover-master-lib\MasterLib.SchLib
@@ -288,23 +288,6 @@ GenerateClassCluster=0
 DocumentUniqueId=LFNNCNRD
 
 [Document15]
-DocumentPath=Daughter_Card_Connectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=HVAKVMBZ
-
-[Document16]
 DocumentPath=Other_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -320,6 +303,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YCJURPKM
+
+[Document16]
+DocumentPath=Daughter_Card_Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=HVAKVMBZ
 
 [Configuration1]
 Name=Sources
