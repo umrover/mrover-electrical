@@ -202,6 +202,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JIMNHPEI
 
+[DiffPairSuffix1]
+Positive=_H
+Negative=_L
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
@@ -1206,7 +1210,7 @@ L16=WWWWNWWNWWWNWWWNW
 L17=WNNNNNNNWNNNWWWWN
 
 [Annotate]
-SortOrder=3
+SortOrder=1
 SortLocation=0
 ReplaceSubparts=0
 MatchParameter1=Comment
