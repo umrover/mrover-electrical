@@ -1,8 +1,0 @@
-Record=TopLevelDocument|FileName=3.3V_Converter.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=5V_12V_Converter.SchDoc|SheetNumber=3
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=Brushed_Motor_MCU.SchDoc|SheetNumber=8
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=Fuse_Science_PDB_MCU.SchDoc|SheetNumber=4
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=FuseCircuit.SchDoc|SheetNumber=6
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=MCU_Headers.SchDoc|SheetNumber=7
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=Mosfet_Board.SchDoc|SheetNumber=5
-Record=NoMainPathDocument|SourceDocument=3.3V_Converter.SchDoc|FileName=Power_Section.schDoc|SheetNumber=1
