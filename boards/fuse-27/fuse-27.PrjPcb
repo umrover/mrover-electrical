@@ -118,7 +118,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RBMLRFOY
 
 [Document5]
-DocumentPath=Soft Start.SchDoc
+DocumentPath=Soft_Start.SchDoc
 AnnotationEnabled=0
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -218,6 +218,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ABUIDDIO
+
+[Document11]
+DocumentPath=testpcb.PcbDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=DXTSNKKU
 
 [Configuration1]
 Name=Sources
