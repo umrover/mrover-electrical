@@ -271,23 +271,6 @@ GenerateClassCluster=0
 DocumentUniqueId=IEODASIQ
 
 [Document14]
-DocumentPath=Current_Sensing.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LFNNCNRD
-
-[Document15]
 DocumentPath=Other_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,7 +287,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=YCJURPKM
 
-[Document16]
+[Document15]
 DocumentPath=Daughter_Card_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -321,7 +304,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HVAKVMBZ
 
-[Document17]
+[Document16]
 DocumentPath=PDB_Motherboard_Layout_27.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -338,7 +321,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document18]
+[Document17]
 DocumentPath=testPCB.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
