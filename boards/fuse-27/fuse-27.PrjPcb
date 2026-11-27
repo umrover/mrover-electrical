@@ -236,6 +236,10 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DXTSNKKU
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for fuse-27\Design Rule Check - Fuse_layout.html
+DItemRevisionGUID=
+
 [Configuration1]
 Name=Sources
 ParameterCount=0
